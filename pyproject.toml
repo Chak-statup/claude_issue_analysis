@@ -1,0 +1,18 @@
+[project]
+name = "claude-issue-analysis"
+version = "0.1.0"
+description = "Semantic analysis and knowledge graph of Claude Code GitHub issues"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "plotly>=5.22",
+    "kaleido>=0.2",
+    "networkx>=3.3",
+    "python-louvain>=0.16",
+    "sentence-transformers>=3.0",
+    "requests>=2.32",
+]
+
+[tool.uv]
+dev-dependencies = []
