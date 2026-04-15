@@ -1,0 +1,518 @@
+{
+  "generated": "2026-04-15",
+  "total_issues": 19332,
+  "gcc_size": 1146,
+  "threshold": 0.8,
+  "n_communities": 25,
+  "communities": [
+    {
+      "id": 23,
+      "label": "Bug Freeze NotWorking IgnoringInstructio",
+      "size": 268,
+      "top_issues": [
+        "[Feedback] Claude Code working as intended",
+        "[BUG] [URGENT!!!] Claude Code is hanging / freezing / stuck on heaps of prompts for 5-20minutes or more.",
+        "[BUG] Claude code Doesn't work",
+        "[Bug] Claude fails to analyze codebase before applying fixes, ignores instructions",
+        "[Bug] Claude Code not following claude.md directives and authorization guidelines",
+        "[BUG] Claude Code repeatedly violates explicit instructions",
+        "Claude Code hangs with zero token consumption for 25-30 minutes, requires force-exit",
+        "[BUG] Claude committed  code without asking for permission, despite explicit instructions in CLAUDE.md to require approval before committing.",
+        "Claude claims fixes work without testing, ships broken code to user",
+        "Claude Code Desktop: New sessions fail with \"Setup script failed with exit code 1\" \u2014 existing sessions   unaffected",
+        "[BUG] ClaudeCode 2.1.105 | Windows 10 Pro 22H2 19045.7058 - claude code fails to launch",
+        "Desktop App: Claude Code crashes with exit code 1 - SDK flag incompatibility (broken for 1+ week)",
+        "[Bug] Claude Code causes system freeze on Ubuntu, requires hard restart",
+        "[BUG]  Claude Code \"No Response Requested\" Loop",
+        "[BUG] Claude Desktop (Claude Code Desktop) sessions become unresponsive (\"Mustering...\" forever) while other sessions work fine"
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Chrome_Connection_Issues",
+      "size": 124,
+      "top_issues": [
+        "Claude in Chrome extension not connecting to Claude Code",
+        "Chrome extension not connecting: Browser extension is not connected",
+        "[BUG]  Claude in Chrome: \"Browser extension is not connected\" on Windows \u2014 `tengu_chrome_auto_enable` forced to `false` by server",
+        "claude-in-chrome MCP server never connects to native host socket (macOS)",
+        "Claude in Chrome: \"Browser extension is not connected\" from claude.ai web interface (MCP tools)",
+        "Claude in Chrome: 'Browser extension is not connected' despite correct setup (v2.1.39 + ext v1.0.47)",
+        "Chrome integration: MCP server does not connect to browser bridge socket",
+        "Claude in Chrome MCP server fails to connect to native host bridge socket",
+        "[BUG] Chrome extension connects to claude.ai instead of Claude Code CLI when Claude desktop app is installed",
+        "[BUG] Claude-in-Chrome: Browser extension persistently fails to connect from CLI",
+        "claude-in-chrome extension fails to connect \u2014 'Browser extension is not connected'",
+        "Claude in Chrome: 'Browser extension is not connected' despite correct setup (macOS, Claude Desktop coexistence)",
+        "[BUG] Claude in Chrome MCP fails to connect to Chromium Browser \u2014 always launches Google Chrome instead",
+        "[BUG]   --chrome flag: CLI never connects to native host socket (bridge process not spawned)",
+        "Claude Desktop: Chrome Extension MCP bridge disconnects repeatedly, prompts for re-authentication"
+      ]
+    },
+    {
+      "id": 19,
+      "label": "TokenUsageIssues BillingIssues TimeoutIs",
+      "size": 101,
+      "top_issues": [
+        "[Bug] Token usage calculation incorrect for *non-peak* hours with 2 small sessions",
+        "[Bug] Excessive token consumption spike since March 23rd",
+        "[Bug] Token consumption rate increases after 2x event",
+        "[Bug] Session token percentage increases unexpectedly after single request with multi-file modifications",
+        "[BUG] Token usage spikes even on off-hours",
+        "[Bug] Excessive token consumption and quality degradation in recent builds",
+        "[Bug] Token caching causing unexpected consumption and bill increases",
+        "[BUG] 5 hour session more than 5 hours",
+        "[Bug] Rapid token consumption - investigate token usage efficiency",
+        "[Bug] Request exceeds 5-hour token limit causing timeout",
+        "[Bug] Unexpected high token usage consumption in single query",
+        "[Bug] Rate limit triggered before reaching session usage limit (71%)",
+        "[Bug] Rate limit errors with unexplained session quota consumption",
+        "[Bug] Excessive token consumption on initial commands - disproportionate to actual work performed",
+        "[Bug] Session token limit exceeded at 84% usage"
+      ]
+    },
+    {
+      "id": 12,
+      "label": "memory_leak kernel_allocation api_error ",
+      "size": 94,
+      "top_issues": [
+        "[BUG] There is a huge memory leak in claude code",
+        "Claude Code causes 49GB invisible kernel memory allocation, triggers OOM killer on 128GB system",
+        "[BUG] Claude Code v2.0.29 throws Error 400 on Max Plan",
+        "[BUG] D\u00e9gradation critique de Claude Code \u2013 exp\u00e9rience utilisateur inacceptable",
+        "[BUG] API Error: Rate Limit when using claude code (vscode) on max plan",
+        "Claude Code quality degraded significantly in recent 3 days",
+        "[BUG] Claude Code usage limit hit after 7 minutes on new session",
+        "Claude Code noticeably slow all day (2026-04-08)",
+        "[BUG] Claude Code Pro API Error: Rate limit reached on brand new Pro account with 0-2% usage",
+        "[BUG] Claude Code CLI - Rate limit error persisting after March 18-19 incident",
+        "[Bug] Claude Code performance degradation",
+        "[BUG] Claude code -API Error: Rate limit reached",
+        "[BUG] Claude Code GitHub review stuck running for 5+ hours on PR",
+        "[Bug] Excessive memory usage - Claude Code consuming 20GB+ RAM",
+        "Claude Opus 4.6"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "AnthropicAPI_RateLimitError",
+      "size": 78,
+      "top_issues": [
+        "API Error: Rate limit reached",
+        "[Bug] Anthropic API Error: Out of extra usage despite remaining quota",
+        "[Bug] Anthropic API Error: Out of Extra Usage despite disabled extra usage tokens",
+        "[Bug] Anthropic API Error: Out of Extra Usage Despite Available Weekly Limits",
+        "[Bug] Anthropic API Error: Rate limit reached without usage",
+        "API Rate limit errors started appearing with no changes to usage patterns",
+        "Rate limit errors show 'API Error' without distinguishing usage vs throughput limits",
+        "[BUG]  I keep getting API Error: Rate limit reached -  I am not even close to a rate limit.",
+        "[Bug] Anthropic API Error: Rate limit reached on claude-opus-4-6",
+        "[Bug] Anthropic API Rate Limit: Unexpected quota depletion within seconds",
+        "[Bug] Anthropic API Error: Rate Limit Exceeded",
+        "[BUG] API Error: Rate limit reached incorrect in CLI",
+        "[Bug] Anthropic API Error: Rate limit reached repeatedly",
+        "[BUG] CLI completely unusable - \"API Error: Rate limit reached\" on every command despite subscription usage not exhausted",
+        "[Bug] Anthropic API Error: Rate limit reached despite zero usage"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Anthropic_API_Errors_500",
+      "size": 76,
+      "top_issues": [
+        "[Bug] Anthropic API Error: Out of extra usage - 400 invalid_request_error",
+        "[Bug] Anthropic API Error: Unspecified",
+        "[Bug] Anthropic API Error: Internal Server Error (500)",
+        "[Bug] Anthropic API Error: Unable to process request",
+        "[Bug] Anthropic API Error: Recurring 500 Internal Server Errors",
+        "[Bug] Anthropic API Error: HTTP 500 and 529 timeout during sessions",
+        "[Bug] Anthropic API Error: Internal Server Error (500)",
+        "[Bug] Anthropic API Error: Internal Server Error (500) and Overloaded Error (529)",
+        "[Bug] Anthropic API Error: Internal Server Error (500)",
+        "[Bug] Anthropic API Error: Internal Server Error (500)",
+        "[Bug] Anthropic API Error: Internal Server Error (500)",
+        "[Bug] Anthropic API Error: Internal Server Error (500) - Mass Outage",
+        "[Bug] Anthropic API Error: Internal Server Error (500)",
+        "[Bug] Anthropic API Error: Internal Server Error (500)",
+        "[Bug] Anthropic API Error: Internal Server Error (500)"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Opus_46_Issues Context_Limit Token",
+      "size": 63,
+      "top_issues": [
+        "Auto-compact not triggering on resumed sessions with Opus 4.6 (1M context)",
+        "[BUG] Bedrock Opus 4.6 incorrectly gets 200k context window instead of 1M",
+        "[BUG] Opus 4.6 at 1m context actually is Opus 4.5",
+        "Auto-compact triggers at ~420K tokens despite Opus having 1M context window \u2014 threshold should be configurable",
+        "[Bug] Context limit error reported despite low actual usage with Claude 4.6 Opus 1M context",
+        "Opus 4.6 (1M context) disappeared from Desktop app model dropdown \u2014 Max plan regression",
+        "[BUG] CLAUDE_CODE_MAX_OUTPUT_TOKENS has no effect on Opus 4.6 \u2014 output stays capped at 32000",
+        "Opus 4.6 token consumption significantly higher than 4.5 - quota feedback from Max subscribers",
+        "[Bug] Anthropic API Error: Long context beta unavailable for Max plan with Claude Opus 4.6 1M",
+        "[Bug] /context command reports 200K max for Claude Opus 4.6 instead of 1M",
+        "Opus 4.6 1M context window unavailable on Max plan \u2014 ongoing regression",
+        "[BUG] Opus 4.6 [1m] effective context window capped at 400K instead of 1M on Max plan",
+        "[Bug] Regression: Claude Opus context window downgraded from 1M to 200K on Max plan",
+        "Opus 4.6 on Bedrock excluded from 1M context window",
+        "[Bug] Claude 3.5 Opus 1M context window not functioning"
+      ]
+    },
+    {
+      "id": 7,
+      "label": "vscode_issues api_error extension_breaks",
+      "size": 45,
+      "top_issues": [
+        "Claude code vscode extension is being updated too many times",
+        "[BUG] official VS Code extension does not work due to API error",
+        "[BUG]  - I can't use claude code anyway on my VSCode extension or CLI",
+        "[BUG] Claude vscode extension does not work on x86 linux after v2.1.72 update",
+        "[BUG] Claude code vscode extension breaks search",
+        "VS Code: 3 blank windows open when launching Claude from VS Code terminal",
+        "[BUG] launching a new Claude Code for VS code tab repeatedly kills the Extension host \"Extension host terminated unexpectedly\"",
+        "[BUG] Server outage caused immediate and total lockout of Claude Code in VS Code",
+        "[BUG] Claude Code VS Code extension signs out automatically every time VS Code is closed and reopened",
+        "Claude Code in VS Code not asking before making changes.",
+        "[BUG] Claude Code for VS Code 2.1.73",
+        "[BUG] Installing the Claude Code plugin for VS Code corrupts",
+        "[BUG] Error launching VSCode Claude Code extension",
+        "[BUG] The import doesn't work in CLAUDE.local.md in Claude Code VSCode extension",
+        "[BUG] The Claude Code Extension for VS Code (v2.1.61) freezes on Windows 11 ARM64."
+      ]
+    },
+    {
+      "id": 9,
+      "label": "Anthropic_API_Overload",
+      "size": 35,
+      "top_issues": [
+        "[Bug] Anthropic API Error: Overloaded Error During Request",
+        "[Bug] Anthropic API Error: Request timeout on long-running tasks",
+        "[Bug] Anthropic API Error: Overloaded (529)",
+        "[Bug] Anthropic API Error: Overloaded",
+        "[Bug] Anthropic API Error: Overloaded (HTTP 529)",
+        "[Bug] Anthropic API Error: Overloaded",
+        "[Bug] Anthropic API Error: Model Overloaded",
+        "[Bug] Anthropic API Error: 529 Service Unavailable",
+        "[Bug] Anthropic API Error: 529 Service Unavailable",
+        "[Bug] Anthropic API Error: Overloaded - No Recovery on Retry or Session Resume",
+        "[Bug] Anthropic API Error: Overloaded",
+        "[Bug] Anthropic API Error: Internal Server Error and Overloaded responses during task execution",
+        "[Bug] Anthropic API Error: Overloaded Error (529) during Claude Code operations",
+        "[Bug] Anthropic API Error: Overloaded",
+        "[Bug] Anthropic API Error: Overloaded (529 HTTP Status)"
+      ]
+    },
+    {
+      "id": 15,
+      "label": "InternalServerError500",
+      "size": 34,
+      "top_issues": [
+        "[BUG] API Error: 400 {\"type\":\"error\",\"error\"",
+        "[BUG] API 400 error",
+        "API Error: 500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Internal server error\"},\"request_id\":\"req_011CZ9GFw9579zj7kCY3hHm9\"}",
+        "[BUG] in Claude Code sesstion, API Error: 500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Internal server error\"},\"request_id\":\"req_011CZ9DWrAFPPiMFaPWYkvph\"}",
+        "API Error: 500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Internal server error\"}",
+        "[BUG] API Error: 500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Internal server error\"},\"request_id\":\"req_011Ca21xMDEk58VrqVWep6M9\"}",
+        "API Error: 500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Internal server      error\"},\"request_id\":\"req_011Ca21qBjXfCiNE63NnhNEA\"}",
+        "[BUG] API Error: 500",
+        "[BUG] API Error: 500",
+        "[BUG] API Error 500",
+        "API Error: 500",
+        "[BUG] API Error: 500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Internal server error\"},\"request_id\"",
+        "API Error: 500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Internal server      error\"},\"request_id\":\"req_011Ca21bfeAZagxGHJbp3jmX\"}",
+        "API Error: 500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"...",
+        "[BUG] API Error 400"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "RemoteControlIssues",
+      "size": 28,
+      "top_issues": [
+        "[BUG] Claude Code Remote not connecting",
+        "[Bug] Remote control functionality unavailable with Claude Pro account",
+        "[BUG] unable to use claude remote-control",
+        "[Bug] Remote Control: Messages not transmitted to Claude Code CLI",
+        "[BUG] Remote Control feature advertised for Pro plan subscribers is inaccessible / not working",
+        "[Bug] Pro account can't access /remote-control",
+        "[Bug] Remote Control feature unavailable on Pro plan despite account eligibility",
+        "[BUG] claude remote-control does not work",
+        "[Bug] /remote-control skill unavailable in Claude Code v2.1.71",
+        "[BUG] claude remote control not working on Pro plan",
+        "[BUG]  Claude Code**: 2.1.63 and remote control",
+        "[BUG] claude remote-control",
+        "[BUG]  Remote Control not available on Pro plan",
+        "[BUG] Remote Control not enabled on Pro \u2014 'not yet enabled for your account'",
+        "[Bug] Remote Control feature disabled for authenticated Pro account despite previous access"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Model_Issues Token_Consumption Downgrade",
+      "size": 23,
+      "top_issues": [
+        "[BUG] Dispatch forces Opus 4.6 with no easy way to switch to Sonnet 4.6 (rapid limit/usage burn)",
+        "Silent model downgrade from Opus to Sonnet after re-authentication (Max subscriber)",
+        "Silent model downgrade from Opus to Sonnet after re-authentication (Max subscriber)",
+        "[Bug] Model alias `opusplan` uses Sonnet instead of Opus in plan mode",
+        "[Bug] OpusPlan model fails to switch back to Opus after plan generation",
+        "[Bug] Model switch from Opus to Sonnet via opusplan command not applied",
+        "[Bug] Excessive token consumption with Claude 4.6 Sonnet and Extended Thinking since latest update",
+        "/model opusplan does not use Opus 4.6 for planning phase",
+        "[Bug] Excessive token consumption on simple requests with Claude Sonnet 4.6",
+        "[Bug] Excessive token consumption on Claude 3.5 Sonnet model",
+        "Sonnet 4.6 1M context unavailable on Max 20x plan - only Opus 1M appears in /model",
+        "[BUG] Silent model downgrade from Opus to Sonnet at 200k tokens in Plan mode - no user notification",
+        "[BUG] opusplan setting doesn't switch to Opus during plan mode",
+        "Max plan: opus[1m] not available, Default shows Sonnet instead of Opus",
+        "[Bug] Excessive token consumption with Sonnet 4.6/Opus 4.6 models"
+      ]
+    },
+    {
+      "id": 20,
+      "label": "Crash Launch Failure Hang Freeze Error",
+      "size": 23,
+      "top_issues": [
+        "[BUG] Claude Desktop 1.2278.0 crashes on launch - macOS Tahoe 26.4.1 / Apple M5 (Mac17,2)",
+        "Claude Desktop fails to launch on macOS Tahoe 26.4 \u2014 \"Failed to get 'logs' path\"",
+        "Claude Desktop 1.1.9493.0 crashes on launch -- no UI rendered, main.log not created, Windows 11 Home 25H2",
+        "[BUG] CLAUDE DESKTOP HANG ON MACOS 26.4",
+        "[BUG] Claude Desktop failed to launch on Windows 11 Home 25H2",
+        "[BUG] Errors 500 in Claude Code Desktop in Windows 11",
+        "Claude Desktop freezes periodically on macOS 26.4 (Tahoe)",
+        "Claude Desktop v1.1.4498 crashes on launch - macOS 26.4 beta",
+        "[BUG] Claude Desktop hangs, MacOS 26.3, M3 Chip.  Latest download installed.  Still hangs",
+        "Claude Desktop on Mac crashing on opening.",
+        "[BUG]  Claude Desktop fails to launch on macOS Tahoe 26.x \u2014 \"Failed to get 'logs' path\" + Workaround/Fix Included",
+        "[BUG] Claude Desktop failed to launch on macOS 26.3",
+        "[BUG] Claude Desktop: \"failed to launch\" error on startup (no window renders, clean install, Windows 11)",
+        "[BUG] Claude Desktop failed to launch.",
+        "[BUG] [BUG] Claude Desktop fails to launch on Windows - crashes instantly with no logs"
+      ]
+    },
+    {
+      "id": 17,
+      "label": "1 Bug Report Details\n2 Feature Request D",
+      "size": 22,
+      "top_issues": [
+        "I need more information to generate a GitHub issue title. Could you please provide the actual bug report or describe the issue you're experiencing with Claude Code?",
+        "I'm ready to help generate GitHub issue titles for Claude Code bug reports. Please share the bug report details, and I'll create a concise, technical title following the format specified.",
+        "I don't have enough context to generate a GitHub issue title from this message. This appears to be a fragment of a conversation about model contracts and interviews, but it doesn't describe a specific bug or feature request for Claude Code.\n\nCould you plea",
+        "I appreciate the detailed feedback, but I need to clarify my role here. I'm Claude Code's issue title generator - I'm designed to convert bug reports into concise GitHub issue titles.\n\nThe text you've provided appears to be a performance review or evaluati",
+        "I'm ready to help generate GitHub issue titles for Claude Code bug reports. Please provide the bug report details and I'll create a concise, technical issue title following the guidelines you've outlined.",
+        "[BUG] https://github.com/anthropics/claude-code/issues/25745#issue-3941171961",
+        "This message appears to be a personal outreach/inquiry rather than a bug report or feature request for Claude Code. It doesn't describe a technical issue that needs a GitHub issue title.\n\nIf you have a genuine bug or feature request for Claude Code, please",
+        "[BUG] \ud83e\udd16 Generated with [Claude Code](https://claude.com/claude-code)",
+        "I appreciate the feedback, but I need actual bug report details to generate a GitHub issue title. Please provide:\n\n1. **Description of the problem** - What went wrong?\n2. **Error message** (if applicable) - What was the exact error?\n3. **Steps to reproduce",
+        "[BUG] https://github.com/claude-code-best/claude-code",
+        "I cannot generate a GitHub issue title from this submission as it is not a bug report or feature request. This appears to be positive feedback or a testimonial rather than a technical issue that needs to be addressed.\n\nIf you're experiencing a specific pro",
+        "I need more information to generate a GitHub issue title. Please provide the bug report or feature request details that you'd like me to create a title for.",
+        "[FEATURE]  https://github.com/anthropics/claude-code/issues/11045#issuecomment-3981143436",
+        "I appreciate you reaching out, but I'm not able to process this as a legitimate bug report for Claude Code.\n\nThis message contains personal commentary and allegations rather than a technical issue with the software. If you have a genuine technical bug or f",
+        "I appreciate the enthusiasm, but this appears to be positive feedback rather than a bug report or feature request that needs a GitHub issue title. \n\nIf you'd like to report an actual issue or suggest a feature for Claude Code, please provide details about:"
+      ]
+    },
+    {
+      "id": 13,
+      "label": "BUG_USAGE_LIMITS",
+      "size": 19,
+      "top_issues": [
+        "[BUG] Can't see usage",
+        "[BUG] Usage limits gone crazy",
+        "[BUG] Rate Limit Message Infinite Loop",
+        "[BUG] Usage Concerns",
+        "[BUG] Usage Spike",
+        "[BUG] Rate Limit Bug",
+        "[BUG] Rate limit absolutely incomprehensible and suddenly extremely exhausted. (Pro)",
+        "[BUG] Rate limit reached without any usage spent",
+        "[BUG] RATE LIMIT SUUUUUUUCKKSSSS",
+        "[Bug] Usage limits silently reduced without notification",
+        "[BUG] Incorrectly calculated usage limits",
+        "[BUG] Usage explosion",
+        "[BUG] Usage limit hit in ~2 minutes after 1 request",
+        "[Bug] Rate limit exceeded immediately on first use",
+        "[BUG] UsageMemore"
+      ]
+    },
+    {
+      "id": 24,
+      "label": "RateLimitIssuesProSubscription",
+      "size": 18,
+      "top_issues": [
+        "[BUG] API Error: Rate limit reached despite 22% session usage on Pro plan - VS Code extension",
+        "[BUG] Rate limit reached immediately on new Max subscription despite 1% usage",
+        "[BUG] **Bug: VS Code Extension returns 'API Error: Rate limit reached' on every request despite active Pro subscription**",
+        "[BUG] API Error: Rate limit reached + Silent API Credit Billing Despite Active Claude Max Subscription (VS Code Extension)",
+        "[BUG] Instantly hitting usage limits with Max subscription",
+        "[BUG] rateLimitTier set to \"default_claude_ai\" instead of \"default_claude_pro\" \u2014 CLI treating Pro subscription as API token auth, immediate \"API Error: Rate limit reached\" with zero usage",
+        "[BUG] API Error: Rate limit reached on Pro plan with no recent usage",
+        "[BUG] VS Code extension resets subscriptionType to null for Team accounts \u2192 \u201cAPI Error: Rate limit reached\u201d",
+        "[BUG] rateLimitTier assigned \"default_claude_ai\" instead of \"default_claude_pro\" for Pro subscribers on WSL \u2014 API Error: Rate limit reached on every request",
+        "[BUG] API Error: Rate limit reached on first message despite Claude Pro subscription and zero prior usage",
+        "API Error: Rate limit reached immediately despite Pro subscription - rateLimitTier showing as default_claude_ai",
+        "[BUG] API Error: Rate limit reached despite Claude Max subscription with only 5% session usage",
+        "rateLimitTier set to \"default_claude_ai\" instead of \"default_claude_pro\" on Pro subscription \u2014 rate limit error with zero usage",
+        "[BUG] MAX100 subscription - abnormal quota consumption and rate_limit_error with multi-session Claude Code",
+        "[BUG] Bug: Rate limit errors on Pro Plan at 26% usage \u2014 rate limit stuck per-session, contradicts documentation"
+      ]
+    },
+    {
+      "id": 14,
+      "label": "ExcessiveTokenConsumption PromptCacheIss",
+      "size": 16,
+      "top_issues": [
+        "[Bug] Excessive token consumption on small prompts for simple page generation",
+        "[Bug] Prompt cache not being utilized, causing excessive token consumption on simple requests",
+        "[BUG] Using the same prompt and model at different times results in higher token consumption during later executions.",
+        "[Bug] Excessive token usage on prompt messages (42k tokens for 3 prompts)",
+        "[Bug] Prompt caching consuming usage limits faster than expected",
+        "[Bug] Unexpected high token consumption on short prompts",
+        "[Bug] System prompt cache token overhead increased 94% since v2.1.98",
+        "[Bug] Usage limits overcounted due to prompt caching bug in v2.1.62",
+        "[Bug] Prompt caching not persisting across server reconnections, causing duplicate token usage",
+        "[Bug] Unexpected high token usage spike on session resume with minimal prompt input",
+        "[Bug] Unexpected high token consumption on simple prompts",
+        "[Bug] Prompt Cache causes excessive token consumption (10-20x inflation)",
+        "[Bug] Excessive token consumption and latency on single-word prompts",
+        "[Bug] Prompt caching not functioning correctly, causing excessive token consumption",
+        "[Bug] Unexpected high token usage spike on single prompt request"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "auth-timeout oauth-expiry login-fail",
+      "size": 14,
+      "top_issues": [
+        "[BUG] Unable to access Claude Code after successful OAuth login with Google account",
+        "[BUG] Claude Code OAuth login times out after browser authorization and ends in internal server error",
+        "[BUG] Claude Code v2.1.92 - OAuth token always expired after login",
+        "OAuth token expired immediately after fresh login - cannot use Claude Code (blocking)",
+        "[BUG] Claude Code login fails with OAuth timeout on Windows",
+        "[BUG] Claude code cli OAuth token revoked after login",
+        "[BUG] claude setup-token/CLAUDE_CODE_OAUTH_TOKEN is not enough to authenticate claude",
+        "[Bug] Excessive token usage spike after OAuth reauthentication in Claude Code",
+        "VS Code extension: OAuth session disconnects 1-4 times daily, requires re-login",
+        "[BUG] Claude code for VS Code OAuth token expiry not handled gracefully",
+        "Claude Code OAuth login fails with a timeout error. `auth.anthropic.com` does not resolve via DNS, making it impossible to authenticate.",
+        "BUG] Claude Code hangs on launch \u2014 OAuth authentication page loads indefinitely (Pro subscription, macOS)",
+        "[BUG] Claude Code CLI/VS Code \u2014 repeated connection timeouts followed by OAuth token expiry, forces re-login every few minutes",
+        "[BUG] Claude Code login times out after successful OAuth browser flow"
+      ]
+    },
+    {
+      "id": 11,
+      "label": "rate_limit_issues usage_limits max_plan_",
+      "size": 13,
+      "top_issues": [
+        "[Bug] Max plan rate limiting: 5-hour usage limit exhausted after 3-5 requests",
+        "[BUG] Rate limit error on Max plan with 0% usage. Persists after full reinstall, affects one device only",
+        "[BUG] Max plan ($200/mo) hitting usage limits unreasonably fast during business hours",
+        "[BUG] ridiculous consumption rate in Max plan since March",
+        "[Bug] Max plan usage consumed at unusually high rate without workflow changes",
+        "[Bug] Rate limiting on Max plan triggered unexpectedly with high usage in short session",
+        "[Bug] Rate limit error persists after plan upgrade to $200",
+        "[BUG] Rate limit triggered incorrectly on Max Plan with 0% usage",
+        "[BUG] Max Plan ($200/month) session limit depletes within 1 hour of normal usage \u2014 support unresponsive",
+        "[BUG]  20x Max Plan User Hitting \"Extra Usage\" Limits After Single Session - Severe Regression",
+        "Max plan: usage exhausted abnormally fast, twice in one day (March 31)",
+        "[Bug] Rate Limit Error persists after increasing plan limits and adding funds and Max plan only at 33% used",
+        "[Bug] Rate limit consumption exceeds expected rate on 20x max plan"
+      ]
+    },
+    {
+      "id": 16,
+      "label": "BUG_Claude INTERRUPTED_MESSAGE AN",
+      "size": 13,
+      "top_issues": [
+        "[BUG] Can't see Claude's thinking anymore",
+        "[BUG] \"Interrupted. What do you want Claude to do instead\" this message is appearing almost on all actions",
+        "[BUG] Claude",
+        "[Bug] Claude is being lazy - very very lazy",
+        "[BUG]  Claude",
+        "[BUG] Interrupted \u00b7 What should Claude do instead?",
+        "[BUG] the questionare while doing things with claude is very annoying.",
+        "[BUG] Massive issues on Claude",
+        "[BUG] Claude forgets about plans",
+        "[BUG] Claude forgets everything in CLAUDE.md after compaction",
+        "[BUG] Claude is stealing my fucks",
+        "[BUG] Claude crashed",
+        "[BUG] Claude not compacting"
+      ]
+    },
+    {
+      "id": 21,
+      "label": "GitBash_Issues_Windows",
+      "size": 13,
+      "top_issues": [
+        "[BUG] Windows: \"unable to find CLAUDE_CODE_GIT_BASH_PATH\" despite Git Bash being installed and accessible",
+        "[BUG] claudeCode.gitBashPath setting not working on Windows - panel UI still shows Git Bash error",
+        "[BUG] Windows 11 ARM64: CLAUDE_CODE_GIT_BASH_PATH not recognized with ARM64 Git for Windows, space-free path",
+        "[BUG] Show Error: Claude Code on Windows requires git-bash",
+        "Git not detected in Claude Code desktop app on Windows despite correct installation",
+        "[BUG] Claude Code was unable to find CLAUDE_CODE_GIT_BASH_PATH path",
+        "[BUG]  Error: Claude Code on Windows requires git-bash",
+        "[BUG] Claude Code silently exits (code 0) when git is not installed",
+        "[BUG] VS Code Extension ignores CLAUDE_CODE_GIT_BASH_PATH environment variable on Windows",
+        "[BUG] VSCode extension: Bash tool does not capture stdout (commands run in popup terminal window)",
+        "[BUG] VS Code extension fails to detect Git Bash on Windows despite CLAUDE_CODE_GIT_BASH_PATH being set",
+        "[BUG] Bash stdout not returned in VS Code Extension (Windows / Git Bash)",
+        "[BUG] VS Code extension ignores CLAUDE_CODE_GIT_BASH_PATH environment variable on Windows"
+      ]
+    },
+    {
+      "id": 0,
+      "label": "BUG Feature Request Remote Access Multi-",
+      "size": 13,
+      "top_issues": [
+        "[BUG] macOS App - Claude Code Failing to Retriver of Session & Failing to Initiate new ones",
+        "[Feature Request] Seamless session sharing between Claude Code and Claude Desktop",
+        "Feature Request: Claude Web as a Remote Control interface for Claude Code",
+        "[BUG] No way to unarchive a Code session in Claude Code Desktop (Windows)",
+        "Remote access / web interface for Claude Code sessions",
+        "Feature: Multi-session coordination \u2014 allow Claude Code sessions to communicate",
+        "[Feature Request] Add ability to unarchive sessions in Claude Code Desktop",
+        "[BUG] Claude Code in Desktop app doesn't have a way to unarchive a session",
+        "[Feature Request] Add ability to open Claude Code CLI sessions in Claude Code Desktop",
+        "Feature Request: Remote session management for Claude Code",
+        "[FEATURE] Unarchive Claude Code sessions in desktop app option",
+        "Feature: Inter-session communication between Claude Code instances",
+        "[BUG] \"Failed to load session\" on Claude Code in macOS desktop app"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "IgnoresInstructions",
+      "size": 6,
+      "top_issues": [
+        "[MODEL]Claude Code ignores user instructions and copies from training examples",
+        "[MODEL] Claude Code disregards the stored instructions",
+        "[MODEL] Claude Code ignores explicit instructions and substitutes its own alternatives",
+        "[MODEL]   Claude ignores permanent instructions",
+        "Model doesn't consistently follow CLAUDE.md instructions without user prompting",
+        "Model ignores CLAUDE.md instructions despite reading them at session start"
+      ]
+    },
+    {
+      "id": 18,
+      "label": "Unresponsive_Mac_Desktop",
+      "size": 5,
+      "top_issues": [
+        "[BUG] Claude Code Mac Desktop App \u2014 messages sent but no response, screen stays blank",
+        "[Bug] Claude Desktop Code mode unresponsive - no loading indicator after message send",
+        "[BUG] Newest version of Claude Code Desktop 1.1.9493 no longer responding on Mac",
+        "[BUG] Claude Desktop Code mode unresponsive on macOS - no response after sending message",
+        "[Bug] Claude Code Desktop unresponsive to messages with stuck visualization panel"
+      ]
+    },
+    {
+      "id": 22,
+      "label": "Anthropic_API_Error\n\nIssues\n- Feature",
+      "size": 2,
+      "top_issues": [
+        "[Bug] Anthropic API Error: Usage Policy Violation with Model Corruption on Claude 3.5 Opus",
+        "[Bug] Anthropic API Error: Internal Server Error with Claude Opus model"
+      ]
+    }
+  ]
+}

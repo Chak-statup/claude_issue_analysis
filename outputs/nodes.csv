@@ -1,0 +1,1207 @@
+node_id,title,community_id,community_label,degree,color
+0,[BUG] There is a huge memory leak in claude code,12,memory_leak kernel_allocation api_error ,12,#2ECC71
+9,Claude code vscode extension is being updated too many times,7,vscode_issues api_error extension_breaks,1,#E91E63
+44,"[Bug] Claude fails to analyze codebase before applying fixes, ignores instructions",23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+51,[Bug] Claude Code not following claude.md directives and authorization guidelines,23,Bug Freeze NotWorking IgnoringInstructio,8,#E74C3C
+57,[Bug] Session token percentage increases unexpectedly after single request with multi-file modifications,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+78,"Claude claims fixes work without testing, ships broken code to user",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+104,[BUG] ClaudeCode 2.1.105 | Windows 10 Pro 22H2 19045.7058 - claude code fails to launch,23,Bug Freeze NotWorking IgnoringInstructio,7,#E74C3C
+128,I need more information to generate a GitHub issue title. Could you please provide the actual bug report or describe the issue you're experiencing with Claude Code?,17,"1 Bug Report Details
+2 Feature Request D",8,#795548
+133,[BUG] Using the same prompt and model at different times results in higher token consumption during later executions.,14,ExcessiveTokenConsumption PromptCacheIss,2,#2196F3
+142,"[BUG] Claude Desktop (Claude Code Desktop) sessions become unresponsive (""Mustering..."" forever) while other sessions work fine",23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+143,[Bug] Token caching causing unexpected consumption and bill increases,19,TokenUsageIssues BillingIssues TimeoutIs,8,#F1C40F
+152,[Bug] Excessive token usage on prompt messages (42k tokens for 3 prompts),14,ExcessiveTokenConsumption PromptCacheIss,7,#2196F3
+173,"[BUG] Claude Desktop 1.2278.0 crashes on launch - macOS Tahoe 26.4.1 / Apple M5 (Mac17,2)",20,Crash Launch Failure Hang Freeze Error,3,#607D8B
+174,"[BUG] Windows: ""unable to find CLAUDE_CODE_GIT_BASH_PATH"" despite Git Bash being installed and accessible",21,GitBash_Issues_Windows,7,#E74C3C
+177,[Bug] Rapid token consumption - investigate token usage efficiency,19,TokenUsageIssues BillingIssues TimeoutIs,16,#F1C40F
+245,[BUG] Claude Code not responding to anything and send button has disappeared,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+255,Opus 4.6 1M context window unavailable on Max plan — ongoing regression,3,Opus_46_Issues Context_Limit Token,12,#9B59B6
+267,Chrome extension service worker never initiates MCP bridge connection (Linux/AUR),10,Chrome_Connection_Issues,1,#E67E22
+287,[Bug] Claude Code performance degradation or unexpected behavior,12,memory_leak kernel_allocation api_error ,16,#2ECC71
+289,[BUG] Update Claude 1.2278.0 (e5213f) - cant send prompt from Claude Code,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+310,"Claude Code repeatedly ignores agreed approaches, hacks instead of reading code, and wastes user time on trivial problems",23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+332,[Bug] Severe latency in Claude Code with long-context sessions (20min+ turn times),12,memory_leak kernel_allocation api_error ,2,#2ECC71
+343,[Bug] Claude Code experiencing severe performance degradation and intermittent failures,12,memory_leak kernel_allocation api_error ,14,#2ECC71
+361,Bug: Claude Code reverts its own working solutions and reports false test results,23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+367,[Bug] Performance degradation: increased token usage and reduced execution speed,19,TokenUsageIssues BillingIssues TimeoutIs,4,#F1C40F
+391,[BUG] claude code not responding,23,Bug Freeze NotWorking IgnoringInstructio,42,#E74C3C
+438,[Bug] Token usage depletes faster than expected,19,TokenUsageIssues BillingIssues TimeoutIs,9,#F1C40F
+448,[Bug] Claude Code process freezing or hanging,23,Bug Freeze NotWorking IgnoringInstructio,31,#E74C3C
+461,[BUG] Usage limits gone crazy,13,BUG_USAGE_LIMITS,7,#F06292
+470,[Bug] Excessive token consumption with Claude 4.6 Sonnet and Extended Thinking since latest update,6,Model_Issues Token_Consumption Downgrade,2,#FF9800
+478,"I'm ready to help generate GitHub issue titles for Claude Code bug reports. Please share the bug report details, and I'll create a concise, technical title following the format specified.",17,"1 Bug Report Details
+2 Feature Request D",8,#795548
+490,[Bug] Session quota consumed without user action,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+513,[Bug] System prompt cache token overhead increased 94% since v2.1.98,14,ExcessiveTokenConsumption PromptCacheIss,3,#2196F3
+535,"[Bug] Plan mode ignored, Claude executes without planning phase",23,Bug Freeze NotWorking IgnoringInstructio,6,#E74C3C
+540,[Bug] `/usage` command fails with Anthropic API rate limit error,2,AnthropicAPI_RateLimitError,7,#1ABC9C
+553,[Bug] Anthropic API Error: HTTP 500 Internal Server Error,4,Anthropic_API_Errors_500,61,#3498DB
+554,"[BUG] API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""message"":""Internal server error""},""request_id"":""req_011Ca21xMDEk58VrqVWep6M9""}",15,InternalServerError500,24,#00BCD4
+555,API Error 500 (Internal Server Error) during active session,4,Anthropic_API_Errors_500,1,#3498DB
+556,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+558,"API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""message"":""Internal server      error""},""request_id"":""req_011Ca21qBjXfCiNE63NnhNEA""}",15,InternalServerError500,16,#00BCD4
+560,[BUG] API Error: 500,15,InternalServerError500,21,#00BCD4
+561,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+562,[Bug] Anthropic API Error: Unable to process requests,4,Anthropic_API_Errors_500,56,#3498DB
+564,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+567,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+568,[Bug] Anthropic API Error: Internal server error (500),4,Anthropic_API_Errors_500,68,#3498DB
+569,[Bug] Anthropic API Error: 500 Internal Server Error,4,Anthropic_API_Errors_500,62,#3498DB
+570,"API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""message"":""Internal server      error""},""request_id"":""req_011Ca21bfeAZagxGHJbp3jmX""}",15,InternalServerError500,16,#00BCD4
+571,[BUG] API Error: 500,15,InternalServerError500,21,#00BCD4
+573,"API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""...",15,InternalServerError500,23,#00BCD4
+575,getting this in claude code API Error: 500...,15,InternalServerError500,1,#00BCD4
+576,"⎿  API Error: 500 {""type"":""error"",""error"":{""type"":""api_error...",15,InternalServerError500,17,#00BCD4
+577,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+578,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+580,[Bug] Anthropic API Error: HTTP 500 Internal Server Error,4,Anthropic_API_Errors_500,61,#3498DB
+581,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+582,"API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",...",15,InternalServerError500,23,#00BCD4
+583,[Bug] Anthropic API Error: HTTP 500 Internal Server Error,4,Anthropic_API_Errors_500,61,#3498DB
+584,I'm getting this error: API Error: 500...,15,InternalServerError500,15,#00BCD4
+585,[BUG] API Error: 500,15,InternalServerError500,21,#00BCD4
+586,[BUG] API Error 500,15,InternalServerError500,22,#00BCD4
+588,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+589,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+592,[BUG] Bug Report: Claude Code API 500 Internal Server Error,15,InternalServerError500,2,#00BCD4
+593,API Error: 500,15,InternalServerError500,23,#00BCD4
+594,API 500 Internal server error on tool results (repeated),4,Anthropic_API_Errors_500,2,#3498DB
+595,"API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""...",15,InternalServerError500,23,#00BCD4
+596,[BUG] Repeated 500 errors,15,InternalServerError500,2,#00BCD4
+597,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+598,"⎿  API Error: 500 {""type"":""error"",""error"":{""type"":""api_err...",15,InternalServerError500,17,#00BCD4
+599,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+600,"API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""...",15,InternalServerError500,23,#00BCD4
+601,[Bug] Anthropic API Error: Internal Server Error,4,Anthropic_API_Errors_500,63,#3498DB
+616,[BUG] Claude code in Mac App freezes with new session.,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+629,claude code cannot connect to chrome and take any action.,10,Chrome_Connection_Issues,1,#E67E22
+646,[BUG] 5h Limit on claude code cli at 100% and on claude code desktop on 3%,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+655,[BUG] Claude Code is Shit,23,Bug Freeze NotWorking IgnoringInstructio,11,#E74C3C
+657,[BUG] Claude Code does not reply,23,Bug Freeze NotWorking IgnoringInstructio,15,#E74C3C
+666,Claude ignores memorized instructions and repeats corrected mistakes,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+713,Claude repeatedly breaks working code with untested fixes — 20+ failed attempts on same bug,23,Bug Freeze NotWorking IgnoringInstructio,8,#E74C3C
+731,[Bug] Claude Code hangs without explanation during complex tasks,23,Bug Freeze NotWorking IgnoringInstructio,27,#E74C3C
+752,[Bug] Claude ignores previously generated code and pursues redundant solutions,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+781,Chrome extension not connecting to native host (macOS 26.3),10,Chrome_Connection_Issues,8,#E67E22
+799,--chrome flag: MCP client never connects to Chrome native host socket,10,Chrome_Connection_Issues,10,#E67E22
+801,[Bug] Claude Code stops executing plan midway without completing all planned tasks,23,Bug Freeze NotWorking IgnoringInstructio,7,#E74C3C
+856,[Bug] Claude Code process freezes during execution,23,Bug Freeze NotWorking IgnoringInstructio,18,#E74C3C
+861,Claude Code authenticates correctly but still rejects requests with “organization does not have access”,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+877,[Bug] Rate limit error at 72% token usage,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+888,[BUG] Claude Code repeatedly ignores project-level CLAUDE.md rules despite acknowledging them.,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+892,"I appreciate the feedback, but I need actual bug report details to generate a GitHub issue title. Please provide:
+
+1. **Description of the problem** - What went wrong?
+2. **Error message** (if applicable) - What was the exact error?
+3. **Steps to reproduce",17,"1 Bug Report Details
+2 Feature Request D",5,#795548
+907,[Bug] Claude Code executes tools and modifies files without explicit edit acceptance enabled,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+920,[BUG] Claude code doesn't work in desktop app.,23,Bug Freeze NotWorking IgnoringInstructio,11,#E74C3C
+921,[BUG] Claude Code CLI v2.1.104 returning 400 errors,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+955,[Bug] Claude Code shows uncertainty and fails to resolve errors,23,Bug Freeze NotWorking IgnoringInstructio,15,#E74C3C
+976,[Bug] Model Quality Degradation in Claude Code Responses,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+996,[MODEL]   Claude ignores permanent instructions,5,IgnoresInstructions,3,#F1C40F
+1030,[BUG] Max plan usage at 100% with zero requests — claude.ai (not Claude Code),12,memory_leak kernel_allocation api_error ,4,#2ECC71
+1073,[Bug Report] Claude Code failing to complete tasks correctly,23,Bug Freeze NotWorking IgnoringInstructio,34,#E74C3C
+1078,Claude in Chrome extension stops connecting spontaneously — MCP shows connected but extension reports not connected,10,Chrome_Connection_Issues,16,#E67E22
+1092,"claude-in-chrome: extension connects in Claude Desktop but not terminal CLI — same Chrome, same extension",10,Chrome_Connection_Issues,16,#E67E22
+1140,[BUG] Extra usage enabled but Claude Code is fully locked (no input box) after weekly limit,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+1171,"[Bug] Excessive token consumption on simple queries (25k tokens for ""what is 1+1"")",19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+1213,[Bug] Global claude.md instructions not being consistently applied,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+1242,[BUG] Token consumption is off track,19,TokenUsageIssues BillingIssues TimeoutIs,19,#F1C40F
+1255,[BUG] [BUG] Claude Desktop fails to launch on Windows - crashes instantly with no logs,20,Crash Launch Failure Hang Freeze Error,4,#607D8B
+1273,"claude-in-chrome MCP: 'Browser extension is not connected' despite --chrome flag and remote debugging enabled (macOS, Chrome 147)",10,Chrome_Connection_Issues,23,#E67E22
+1336,[Bug] Anthropic API Error: Usage Policy violation on non-policy-violating prompts,4,Anthropic_API_Errors_500,3,#3498DB
+1355,claude code use many usage without helpful and doing many things incorrect,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+1357,[BUG]   Claude Code session degradation + inability to debug visual/interactive issues,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+1378,[Bug] Degraded code generation quality and pattern recognition across Claude Code versions,12,memory_leak kernel_allocation api_error ,4,#2ECC71
+1460,"[BUG] Claude Pro plan not fully recognized, preventing some features from working (like remote-control)",1,RemoteControlIssues,1,#8BC34A
+1474,[Bug] Usage spike after rate limit reset with resumed session,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+1479,[Bug] Rate limit reset shows incorrect usage percentage immediately after continue,2,AnthropicAPI_RateLimitError,2,#1ABC9C
+1487,[Bug] Unexpected high token consumption on simple prompts,14,ExcessiveTokenConsumption PromptCacheIss,9,#2196F3
+1535,"[BUG] Claude Code hanging on on thinking for 10+ minutes at 3,4k tokens",23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+1555,[Bug] Excessive token consumption with Sonnet 4.6/Opus 4.6 models,6,Model_Issues Token_Consumption Downgrade,2,#FF9800
+1608,[BUG] Incident Report - Unable to use Claude Code inside VSCode for 2 days now,7,vscode_issues api_error extension_breaks,9,#E91E63
+1609,Claude doesn't proactively read memory files before acting on known systems,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+1655,[BUG] Claude Code Exploit: Claude Code Becomes an Unwitting Executor,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+1658,[Bug] Unexpected increase in API token consumption rate,19,TokenUsageIssues BillingIssues TimeoutIs,14,#F1C40F
+1678,"This doesn't appear to be a bug report or feature request - it's positive feedback about Claude Code working well. There's no actual issue to create a GitHub title for.
+
+If you'd like to submit feedback, you could do so through Anthropic's official channel",17,"1 Bug Report Details
+2 Feature Request D",3,#795548
+1691,[BUG] Your account does not have access to Claude Code. Please run /login.,23,Bug Freeze NotWorking IgnoringInstructio,6,#E74C3C
+1701,[BUG] Inconsistency in the usage calculation system,13,BUG_USAGE_LIMITS,1,#F06292
+1704,"Claude Code CLI connecting to Chrome MCP returns ""not connected"" despite extension showing as connected",10,Chrome_Connection_Issues,16,#E67E22
+1732,Opus 4.6 (1M context) produces garbled terminal output and usage policy API error,3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+1762,[BUG] Claude Code for VS Code hangs in 2.1.78+,7,vscode_issues api_error extension_breaks,8,#E91E63
+1786,[Bug] Claude executes actions prematurely without awaiting user confirmation,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+1803,Chrome extension not connecting to Claude Code CLI,10,Chrome_Connection_Issues,25,#E67E22
+1932,"Claude Code ignores its own configured rules (CLAUDE.md, hooks) and deletes/removes without asking",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+1942,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+1957,[Bug] Claude in Chrome: CLI MCP client never connects to bridge socket when Desktop is also installed,10,Chrome_Connection_Issues,5,#E67E22
+1959,[Bug] Anthropic API Error: Out of extra usage quota despite available balance,2,AnthropicAPI_RateLimitError,11,#1ABC9C
+1960,[Bug] Claude Code not falling back to pro subscription after extra usage exhaustion,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+1970,[Bug] Anthropic API Error: Out of Extra Usage despite available quota on Claude Max plan,2,AnthropicAPI_RateLimitError,2,#1ABC9C
+1985,[Bug] Anthropic API Error: Out of extra usage despite available quota balance,2,AnthropicAPI_RateLimitError,11,#1ABC9C
+1995,[Bug] Anthropic API Error: Out of extra usage quota,2,AnthropicAPI_RateLimitError,16,#1ABC9C
+1997,claude code not connecting to chrome browser,10,Chrome_Connection_Issues,10,#E67E22
+2010,[Bug] Claude Code incorrectly routes requests to Extra Usage despite plan allocation remaining,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+2011,[Bug] Claude Code incorrectly billing against extra usage instead of plan quota,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+2021,[BUG] incorrect API error 400,15,InternalServerError500,10,#00BCD4
+2047,"[Bug] API Reports ""Out of Extra Usage"" Despite Extra Usage Disabled",19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+2059,[Bug] Anthropic API Error: Out of Extra Usage despite disabled extra usage tokens,2,AnthropicAPI_RateLimitError,5,#1ABC9C
+2082,[Bug] Anthropic API Error: Request timeout on long-running tasks,9,Anthropic_API_Overload,1,#FF5722
+2085,[Bug] Anthropic API Error: Overloaded (529),9,Anthropic_API_Overload,32,#FF5722
+2086,[Bug] Anthropic API Error: Unspecified,4,Anthropic_API_Errors_500,74,#3498DB
+2089,[BUG] official VS Code extension does not work due to API error,7,vscode_issues api_error extension_breaks,1,#E91E63
+2094,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+2101,[Bug] Token consumption rate increases after 2x event,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+2112,Claude Code quality degraded significantly in recent 3 days,12,memory_leak kernel_allocation api_error ,8,#2ECC71
+2137,[BUG]  - I can't use claude code anyway on my VSCode extension or CLI,7,vscode_issues api_error extension_breaks,17,#E91E63
+2173,[BUG] ridiculous consumption rate in Max plan since March,11,rate_limit_issues usage_limits max_plan_,1,#FF5252
+2178,"[BUG]  Claude Code ""No Response Requested"" Loop",23,Bug Freeze NotWorking IgnoringInstructio,6,#E74C3C
+2179,[Bug] Excessive token consumption and quality degradation in recent builds,19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+2180,"[Bug] Prompt cache not being utilized, causing excessive token consumption on simple requests",14,ExcessiveTokenConsumption PromptCacheIss,7,#2196F3
+2236,[Bug] Claude ignores memory files and repeats errors across conversations,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+2249,[BUG] Claude Code Won't Authenticate,23,Bug Freeze NotWorking IgnoringInstructio,13,#E74C3C
+2260,[Bug] Anthropic API Error: Disproportionate Token Usage on Single Request,2,AnthropicAPI_RateLimitError,3,#1ABC9C
+2263,[Bug] Excessive token consumption on initial commands - disproportionate to actual work performed,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+2270,[Bug] Claude Code not following skill instructions,23,Bug Freeze NotWorking IgnoringInstructio,10,#E74C3C
+2275,[Bug] Session token limit exceeded at 84% usage,19,TokenUsageIssues BillingIssues TimeoutIs,6,#F1C40F
+2293,[Bug] Claude Code CLI fails to initialize or execute commands,23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+2298,[Bug] Excessive token consumption in long-running sessions,19,TokenUsageIssues BillingIssues TimeoutIs,18,#F1C40F
+2302,Chrome extension not connecting to native messaging host (macOS),10,Chrome_Connection_Issues,5,#E67E22
+2384,[Bug] Regression: Claude Opus context window downgraded from 1M to 200K on Max plan,3,Opus_46_Issues Context_Limit Token,4,#9B59B6
+2385,[BUG] Claude code quality (Opus 4.6) has degraded,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+2387,[BUG] Issues loggin in and reporting bugs on claude code CLI,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+2392,[BUG] Server outage caused immediate and total lockout of Claude Code in VS Code,7,vscode_issues api_error extension_breaks,1,#E91E63
+2431,[Bug] Claude Code ignores explicit plan instructions and fabricates output instead of reading source files,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+2434,[Bug] Anthropic API Error: Persistent 429 Rate Limit Responses Consuming Credits,2,AnthropicAPI_RateLimitError,3,#1ABC9C
+2458,[BUG] Claude Code v2.1.92 - OAuth token always expired after login,8,auth-timeout oauth-expiry login-fail,8,#9C27B0
+2463,[BUG] Claude Code login fails with OAuth timeout on Windows,8,auth-timeout oauth-expiry login-fail,4,#9C27B0
+2467,[Bug] Session limit consumption rate increased unexpectedly,19,TokenUsageIssues BillingIssues TimeoutIs,5,#F1C40F
+2480,[Bug] Token usage limits exhausted prematurely in 5-hour sessions,19,TokenUsageIssues BillingIssues TimeoutIs,8,#F1C40F
+2571,[Bug] Excessive token consumption in Claude Code sessions,12,memory_leak kernel_allocation api_error ,6,#2ECC71
+2578,"[BUG] Windows 11 ARM64: CLAUDE_CODE_GIT_BASH_PATH not recognized with ARM64 Git for Windows, space-free path",21,GitBash_Issues_Windows,1,#E74C3C
+2584,[Bug] Unexpected high API usage consumption within 30 minutes,19,TokenUsageIssues BillingIssues TimeoutIs,5,#F1C40F
+2587,Claude Code Performance Degraded,12,memory_leak kernel_allocation api_error ,11,#2ECC71
+2599,"[BUG] Claude in Chrome v1.0.66 — not connected in Cowork mode despite native host running (macOS, April 2026)",10,Chrome_Connection_Issues,5,#E67E22
+2624,"Max x20 plan blocked from using Opus 4.6 with 1M context - ""Extra usage is required""",3,Opus_46_Issues Context_Limit Token,5,#9B59B6
+2673,[BUG] Intermittent Freezes Claude Code 2.1.92,23,Bug Freeze NotWorking IgnoringInstructio,14,#E74C3C
+2721,[Bug] Unexpected high token consumption with previously efficient patterns,19,TokenUsageIssues BillingIssues TimeoutIs,11,#F1C40F
+2734,[Bug] Rapid token usage spikes with Opus model in Claude Code sessions,3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+2769,[Bug] Excessive token consumption for simple requests,19,TokenUsageIssues BillingIssues TimeoutIs,18,#F1C40F
+2772,[Bug] Tokens consumed without generating output or response,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+2798,[BUG] Usage doesn't work in a long Claude Code session,23,Bug Freeze NotWorking IgnoringInstructio,9,#E74C3C
+2803,[BUG] Used all tokens in session limit without receiving a SINGLE token as a response,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+2818,[Bug] Excessive token consumption on Claude 3.5 Sonnet model,6,Model_Issues Token_Consumption Downgrade,3,#FF9800
+2839,[BUG] 🤖 Generated with [Claude Code](https://claude.com/claude-code),17,"1 Bug Report Details
+2 Feature Request D",1,#795548
+2866,[BUG] No way to unarchive a Code session in Claude Code Desktop (Windows),0,BUG Feature Request Remote Access Multi-,1,#E67E22
+2882,[Bug] Anthropic API Error: 400 Bad Request,4,Anthropic_API_Errors_500,65,#3498DB
+2887,[BUG] API Error 400,15,InternalServerError500,10,#00BCD4
+2908,[Bug] Rate limiting on Max plan triggered unexpectedly with high usage in short session,11,rate_limit_issues usage_limits max_plan_,7,#FF5252
+2922,[Bug] Anthropic API Error: Internal server error (500),4,Anthropic_API_Errors_500,68,#3498DB
+2933,VS Code extension crashes on activation when claudeCode.environmentVariables is a plain object,7,vscode_issues api_error extension_breaks,4,#E91E63
+2935,Claude Code makes edits during plan mode before user approves the plan,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+2936,[Bug] Claude Code tab unresponsive after reinstall,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+2991,[Bug] Token consumption,19,TokenUsageIssues BillingIssues TimeoutIs,18,#F1C40F
+2997,[Bug] Excessive token consumption causing rapid API quota depletion,19,TokenUsageIssues BillingIssues TimeoutIs,11,#F1C40F
+3000,[Bug] Rapid token consumption issue,19,TokenUsageIssues BillingIssues TimeoutIs,29,#F1C40F
+3007,Opus 4.6 1M context window stuck at 200K despite active Max subscription (tengu_hawthorn_window: 200000),3,Opus_46_Issues Context_Limit Token,5,#9B59B6
+3015,[Bug] API response quality degradation and rate limiting issues,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+3022,[Bug] Excessive context consumption on initial Opus startup (5% of pro plan limit),3,Opus_46_Issues Context_Limit Token,4,#9B59B6
+3050,[Bug] Excessive token consumption on Max plan - 15% rate limit after minimal usage,19,TokenUsageIssues BillingIssues TimeoutIs,6,#F1C40F
+3100,[BUG] Claude is stealing my fucks,16,BUG_Claude INTERRUPTED_MESSAGE AN,2,#69F0AE
+3115,[BUG] Claude Code in VSCode Version 2.1.90 Editing Files in Plan Mode. WTF?,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+3116,[BUG] claude code becomes basically unusable,23,Bug Freeze NotWorking IgnoringInstructio,47,#E74C3C
+3140,[BUG] i reached limit session in under 5minutes,19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+3150,Context compaction too aggressive on 1M context window (Opus 4.6),3,Opus_46_Issues Context_Limit Token,4,#9B59B6
+3222,[Bug] Excessive API token consumption leading to rapid rate limit depletion,19,TokenUsageIssues BillingIssues TimeoutIs,14,#F1C40F
+3226,[Bug] Excessive API usage consumption during active session,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+3239,Auto-compaction triggers at ~6% context usage on Opus 4.6 (1M context),3,Opus_46_Issues Context_Limit Token,8,#9B59B6
+3252,"Chrome extension MCP tools report 'not connected' despite successful pairing (macOS, v2.1.90)",10,Chrome_Connection_Issues,1,#E67E22
+3289,Doesnt seem like new session resets usage limits correctly.,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+3290,[Bug] Claude invokes incorrect tool and exits plan mode prematurely on invalid invocation,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+3292,"[BUG] Excessive token consumption since 2.1.88 — 66% usage in 2 questions (Max 5x, Opus 4.6)",3,Opus_46_Issues Context_Limit Token,5,#9B59B6
+3303,[BUG] Extreme token consumption — quota depleted in minutes with normal usage,19,TokenUsageIssues BillingIssues TimeoutIs,8,#F1C40F
+3309,[BUG] Claude Code not responsive at all,23,Bug Freeze NotWorking IgnoringInstructio,9,#E74C3C
+3331,[Bug] Excessive token/rate limit consumption without reading any files,19,TokenUsageIssues BillingIssues TimeoutIs,4,#F1C40F
+3332,"New sessions fail with ""Claude Code process exited with code 1"" in desktop app v2.1.87",23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+3333,[Bug] Excessive token consumption rate over extended periods,19,TokenUsageIssues BillingIssues TimeoutIs,33,#F1C40F
+3339,[Bug] Excessive API usage consuming tokens rapidly,19,TokenUsageIssues BillingIssues TimeoutIs,20,#F1C40F
+3343,[Bug] Excessive context window consumption causing rapid token budget depletion,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+3363,"[BUG] Claude Code bypasses Plan Mode and operates under ""Ask before edits"" Mode",23,Bug Freeze NotWorking IgnoringInstructio,6,#E74C3C
+3371,"[BUG] Title: [BUG] Cowork cannot connect to ""Claude in Chrome"" MCP — chrome-native-host.exe returns ""Access is denied (os error 5)"" — reproduced on 3 machines (Windows + macOS)",10,Chrome_Connection_Issues,1,#E67E22
+3426,[BUG] Newest version of Claude Code Desktop 1.1.9493 no longer responding on Mac,18,Unresponsive_Mac_Desktop,2,#2ECC71
+3427,[BUG] Incorrectly calculated usage limits,13,BUG_USAGE_LIMITS,2,#F06292
+3466,[Bug] Unexpected high token usage spike on session resume with minimal prompt input,14,ExcessiveTokenConsumption PromptCacheIss,1,#2196F3
+3511,[BUG] issue in claude code in vscode extension,7,vscode_issues api_error extension_breaks,18,#E91E63
+3551,[BUG] Sporadic context compaction triggers on first message in some sessions (1M Opus 4.6),3,Opus_46_Issues Context_Limit Token,2,#9B59B6
+3556,[Bug] Rate limit consumed without API calls,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+3567,Chrome MCP: 'Browser extension is not connected' despite native messaging working correctly,10,Chrome_Connection_Issues,7,#E67E22
+3583,[Bug] Excessive token consumption causing unusable API costs,19,TokenUsageIssues BillingIssues TimeoutIs,20,#F1C40F
+3585,[BUG] Can't Open Claude Code,23,Bug Freeze NotWorking IgnoringInstructio,24,#E74C3C
+3589,[Bug] Excessive token consumption without corresponding output generation,19,TokenUsageIssues BillingIssues TimeoutIs,10,#F1C40F
+3592,"Bug: Claude Code ignores explicit user instructions (working directory), wasting tokens and money",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+3597,[BUG] Claude Code extremely slow- Conversation disapearing begining of session but still running - 30min+ for a small plan mode.,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+3618,I'm ready to help you generate a GitHub issue title for Claude Code. Please share the bug report or issue details you'd like me to create a title for.,17,"1 Bug Report Details
+2 Feature Request D",8,#795548
+3621,[BUG] Claude Code Not responding from last 1 hour,23,Bug Freeze NotWorking IgnoringInstructio,14,#E74C3C
+3631,[Bug] Session hangs with excessive token consumption and no output progress,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+3650,[BUG] API Error / Rate limit reached,2,AnthropicAPI_RateLimitError,32,#1ABC9C
+3668,"[Bug] Claude hangs indefinitely on simple tasks, requires cancellation to resume",23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+3671,[Bug] Unexpected excessive API usage consumption,19,TokenUsageIssues BillingIssues TimeoutIs,10,#F1C40F
+3686,Chrome extension: first native messaging connection always fails,10,Chrome_Connection_Issues,4,#E67E22
+3692,"[Bug] Model switching to ""opusplan"" fails after selecting sonnet[1m], opus[1m], or haiku",6,Model_Issues Token_Consumption Downgrade,1,#FF9800
+3712,[Bug] Unexpectedly High API Usage and Rate Limit Hits,19,TokenUsageIssues BillingIssues TimeoutIs,9,#F1C40F
+3719,[Bug] Prompt Cache causes excessive token consumption (10-20x inflation),14,ExcessiveTokenConsumption PromptCacheIss,7,#2196F3
+3727,[BUG] 500 ERROR while using Extra Usage,15,InternalServerError500,1,#00BCD4
+3730,[Bug] Excessive API usage consumption and degraded response performance,19,TokenUsageIssues BillingIssues TimeoutIs,5,#F1C40F
+3744,Excessive token consumption after recent updates (Max plan),19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+3750,Claude in Chrome: MCP client never connects to native host bridge socket on Linux,10,Chrome_Connection_Issues,16,#E67E22
+3762,"[BUG] Bug: Rate limit errors on Pro Plan at 26% usage — rate limit stuck per-session, contradicts documentation",24,RateLimitIssuesProSubscription,2,#4CAF50
+3773,[Bug] Unexpected token usage depletion exceeding expected limit,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+3791,Sonnet 4.6 1M context unavailable on Max x20 plan — v2.1.87 [BUG],6,Model_Issues Token_Consumption Downgrade,1,#FF9800
+3794,[BUG]  Max Plan 5x Phantom Consumption and Large Token Usage Increased Without Config Changes,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+3800,"[BUG]  20x Max Plan User Hitting ""Extra Usage"" Limits After Single Session - Severe Regression",11,rate_limit_issues usage_limits max_plan_,1,#FF5252
+3801,Max Plan: Token usage increased ~3-5x without any configuration change (since ~March 28-29),19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+3803,"Max plan: usage exhausted abnormally fast, twice in one day (March 31)",11,rate_limit_issues usage_limits max_plan_,1,#FF5252
+3853,[Bug] Unexpectedly high API usage consumption (9% of max plan),19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+3910,[Bug] Excessive token consumption rate - usage depleting faster than expected,19,TokenUsageIssues BillingIssues TimeoutIs,34,#F1C40F
+3940,[BUG] Usage limit reached in 10 minutes,13,BUG_USAGE_LIMITS,4,#F06292
+3948,[BUG] Excessive token consumption,19,TokenUsageIssues BillingIssues TimeoutIs,35,#F1C40F
+3965,[BUG] Claude Code Terminal - API Error: Rate limit reached despite low usage (Pro account),12,memory_leak kernel_allocation api_error ,2,#2ECC71
+3967,Max plan: sonnet[1m] requires extra usage but opus[1m] is included - inconsistent,6,Model_Issues Token_Consumption Downgrade,2,#FF9800
+3968,[BUG] Incorrect token limit exceeded error despite low usage,19,TokenUsageIssues BillingIssues TimeoutIs,4,#F1C40F
+3987,"[BUG] claude code - Usage Limits Show 0% Daily But 41% Weekly, Rate Limited Despite No Activity — Phantom Usage Consuming Paid Max 20x Quota",12,memory_leak kernel_allocation api_error ,1,#2ECC71
+3992,/model command does not show 1M context variants and resets opus[1m] to standard opus,3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+4002,Claude Code repeatedly ignores explicit read-only/no-changes instructions,23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+4003,[Bug] Claude ignores plan mode and continues executing despite acknowledgment,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+4053,[Bug] Rate limit consumption exceeds expected rate on 20x max plan,11,rate_limit_issues usage_limits max_plan_,1,#FF5252
+4059,[BUG] Claude did not follow instructions from its MD file multiple times,23,Bug Freeze NotWorking IgnoringInstructio,6,#E74C3C
+4078,Opus 4.6 on Max plan: usage seems disproportionately high per prompt,3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+4081,"[BUG] Session randomly dies with ""API Error: Rate limit reached"" despite near-zero usage",2,AnthropicAPI_RateLimitError,1,#1ABC9C
+4102,[Bug] Token usage calculation incorrect for *non-peak* hours with 2 small sessions,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+4121,[Bug] Anthropic API Error: Rate limit reached without usage,2,AnthropicAPI_RateLimitError,42,#1ABC9C
+4127,[Bug] Excessive token consumption spike since March 23rd,19,TokenUsageIssues BillingIssues TimeoutIs,19,#F1C40F
+4146,Chrome extension not connecting: Browser extension is not connected,10,Chrome_Connection_Issues,6,#E67E22
+4147,Auto-compact triggers at ~420K tokens despite Opus having 1M context window — threshold should be configurable,3,Opus_46_Issues Context_Limit Token,4,#9B59B6
+4151,[BUG]  I keep getting API Error: Rate limit reached -  I am not even close to a rate limit.,2,AnthropicAPI_RateLimitError,27,#1ABC9C
+4169,[BUG] Claude Code usage limit hit after 7 minutes on new session,12,memory_leak kernel_allocation api_error ,7,#2ECC71
+4191,[BUG] Claude Code Pro API Error: Rate limit reached on brand new Pro account with 0-2% usage,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+4226,[BUG] Rate limit absolutely incomprehensible and suddenly extremely exhausted. (Pro),13,BUG_USAGE_LIMITS,4,#F06292
+4256,[BUG] Claude code -API Error: Rate limit reached,12,memory_leak kernel_allocation api_error ,10,#2ECC71
+4258,[BUG] Claude Code GitHub review stuck running for 5+ hours on PR,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+4273,[Bug] Request exceeds 5-hour token limit causing timeout,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+4279,[BUG]   --chrome flag: CLI never connects to native host socket (bridge process not spawned),10,Chrome_Connection_Issues,2,#E67E22
+4297,[BUG] API Error: Rate limit reached despite 22% session usage on Pro plan - VS Code extension,24,RateLimitIssuesProSubscription,3,#4CAF50
+4300,Claude Desktop Code mode crashes immediately (exit code 1) — works fine from CLI,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+4302,[Bug] Rate limit errors with unexplained session quota consumption,19,TokenUsageIssues BillingIssues TimeoutIs,4,#F1C40F
+4311,[BUG] Claude Code fails to follow established process rules despite repeated correction,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+4381,[BUG] Immediate rate limit after updating to native Claude Code client...,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+4382,[BUG] macOS App - Claude Code Failing to Retriver of Session & Failing to Initiate new ones,0,BUG Feature Request Remote Access Multi-,1,#E67E22
+4394,[Bug] Claude is being lazy - very very lazy,16,BUG_Claude INTERRUPTED_MESSAGE AN,1,#69F0AE
+4447,"claude-in-chrome: Browser extension not connected despite native host running (macOS 26.4, Claude Code 2.1.86)",10,Chrome_Connection_Issues,33,#E67E22
+4470,[Bug] Anthropic API: Extreme latency on Claude Code requests (15s+ to first token),12,memory_leak kernel_allocation api_error ,1,#2ECC71
+4472,[BUG] Claude Code VS Code extension signs out automatically every time VS Code is closed and reopened,7,vscode_issues api_error extension_breaks,1,#E91E63
+4474,"[BUG] ""API Error: Rate limit reached"" repeatedly despite having significant quota remaining.",2,AnthropicAPI_RateLimitError,19,#1ABC9C
+4475,[Bug] Claude Code ignores user commands and behaves unresponsively,23,Bug Freeze NotWorking IgnoringInstructio,11,#E74C3C
+4488,"[BUG] Rate limit error on Max plan with 0% usage. Persists after full reinstall, affects one device only",11,rate_limit_issues usage_limits max_plan_,3,#FF5252
+4497,[Bug] Rate limit exceeded despite low session usage percentage,19,TokenUsageIssues BillingIssues TimeoutIs,7,#F1C40F
+4499,[BUG] API ERROR: Rate Limit Reached with 0% of my session or weekly usage even touched.,2,AnthropicAPI_RateLimitError,9,#1ABC9C
+4505,[BUG] Claude Desktop failed to launch on Windows 11 Home 25H2,20,Crash Launch Failure Hang Freeze Error,8,#607D8B
+4506,[BUG] API Error: Rate limit reached,2,AnthropicAPI_RateLimitError,30,#1ABC9C
+4512,[BUG] Claude Code ignored explicit file write prohibition in ~/.claude/instructions.md,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+4548,Abnormal token consumption rate on Opus 4.5 — 100% usage in ~1 hour,3,Opus_46_Issues Context_Limit Token,5,#9B59B6
+4560,[Bug] Anthropic API Error: Rate limit reached despite low session/weekly usage; missing per-minute limit documentation,2,AnthropicAPI_RateLimitError,21,#1ABC9C
+4588,[BUG] Installing the Claude Code plugin for VS Code corrupts,7,vscode_issues api_error extension_breaks,5,#E91E63
+4593,[BUG] Usage Spike,13,BUG_USAGE_LIMITS,1,#F06292
+4600,"[BUG] Claude Code stops responding mid-task, Happening for 3 days.",23,Bug Freeze NotWorking IgnoringInstructio,13,#E74C3C
+4668,[Bug] Anthropic API Error: 529 Overloaded,9,Anthropic_API_Overload,28,#FF5722
+4676,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+4684,[Bug] Anthropic API Error: 500 Internal Server Error,4,Anthropic_API_Errors_500,62,#3498DB
+4700,[BUG] Show Error: Claude Code on Windows requires git-bash,21,GitBash_Issues_Windows,6,#E74C3C
+4702,[Bug] Plan Mode not enforced: Claude executes actions without waiting for user approval,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+4724,[BUG] In Claude Code Desktop the messages I type,23,Bug Freeze NotWorking IgnoringInstructio,10,#E74C3C
+4726,Chrome extension connection frequently drops with single claude --chrome session,10,Chrome_Connection_Issues,2,#E67E22
+4744,"[BUG] rateLimitTier set to ""default_claude_ai"" instead of ""default_claude_pro"" — CLI treating Pro subscription as API token auth, immediate ""API Error: Rate limit reached"" with zero usage",24,RateLimitIssuesProSubscription,5,#4CAF50
+4754,[BUG] Rate Limit Bug,13,BUG_USAGE_LIMITS,5,#F06292
+4760,[BUG] Max plan ($200/mo) hitting usage limits unreasonably fast during business hours,11,rate_limit_issues usage_limits max_plan_,5,#FF5252
+4762,Claude Code repeatedly commits/pushes without user approval despite explicit CLAUDE.md instructions,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+4763,"Claude Code doesn't know its own settings file hierarchy, puts permissions in wrong file",23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+4767,[BUG] claude code is showing not responding bug during execution today and claude code has become so slow,23,Bug Freeze NotWorking IgnoringInstructio,24,#E74C3C
+4796,Feature Request: Claude Web as a Remote Control interface for Claude Code,0,BUG Feature Request Remote Access Multi-,1,#E67E22
+4820,[BUG] Non-interactive Claude Code (-p) cannot use existing Claude Pro login,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+4918,[BUG]  Claude Code         process exited with code 1,23,Bug Freeze NotWorking IgnoringInstructio,39,#E74C3C
+4949,"[BUG] ""Claude in Chrome"" extension cannot connect to Claude Code CLI",10,Chrome_Connection_Issues,24,#E67E22
+4954,"[BUG] ""API Error: Rate limit reached"" is actually a stale auth issue - persists for hours past reset, fixed instantly by re-login",2,AnthropicAPI_RateLimitError,11,#1ABC9C
+5000,[Bug] Anthropic API Error: Rate limit reached during OAuth login,2,AnthropicAPI_RateLimitError,12,#1ABC9C
+5005,[BUG]  Rate limit errors despite 14% session / 16% weekly usage,19,TokenUsageIssues BillingIssues TimeoutIs,5,#F1C40F
+5041,"[BUG] When opening a remote GitHub repository in VS Code, Claude Code throws the following system error:",7,vscode_issues api_error extension_breaks,1,#E91E63
+5071,[BUG] Claude Code is TOTALLY DESTRUCTIVE,23,Bug Freeze NotWorking IgnoringInstructio,12,#E74C3C
+5088,"[BUG] rateLimitTier assigned ""default_claude_ai"" instead of ""default_claude_pro"" for Pro subscribers on WSL — API Error: Rate limit reached on every request",24,RateLimitIssuesProSubscription,3,#4CAF50
+5095,[Bug] API Error: Rate limit reached despite 0% usage,2,AnthropicAPI_RateLimitError,21,#1ABC9C
+5111,[Bug] Excessive token usage spike after OAuth reauthentication in Claude Code,8,auth-timeout oauth-expiry login-fail,1,#9C27B0
+5121,"[BUG] Claude Code Desktop: session closes silently, no response displayed",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+5125,"Chrome extension v1.0.63 broken — Claude Code cannot connect (macOS, Desktop app)",10,Chrome_Connection_Issues,19,#E67E22
+5129,[Bug] Excessive token consumption in API requests,19,TokenUsageIssues BillingIssues TimeoutIs,16,#F1C40F
+5145,[Bug] Unexpected high token usage consumption on Claude Code Pro with Opus 4.6,3,Opus_46_Issues Context_Limit Token,9,#9B59B6
+5215,API Error: Rate limit reached immediately despite Pro subscription - rateLimitTier showing as default_claude_ai,24,RateLimitIssuesProSubscription,7,#4CAF50
+5291,[BUG] claude code ignoring CLAUDE.md 2.1.81 opus 4-6,23,Bug Freeze NotWorking IgnoringInstructio,15,#E74C3C
+5351,[BUG] Claude Code was unable to find CLAUDE_CODE_GIT_BASH_PATH path,21,GitBash_Issues_Windows,3,#E74C3C
+5355,Token usage limit reached significantly earlier than in previous versions,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+5359,[BUG] Abnormal / inflated rate limit / session usage,19,TokenUsageIssues BillingIssues TimeoutIs,7,#F1C40F
+5360,[Bug] Unexpected Session Limit Exceeded with Minimal Usage,19,TokenUsageIssues BillingIssues TimeoutIs,7,#F1C40F
+5414,[BUG] Claude code stuck on VS Code,7,vscode_issues api_error extension_breaks,14,#E91E63
+5415,"[BUG]  Extremely rapid token consumption. There appears to be a critical issue with token calculation and quota management. Users, including myself, are experiencing an unusually high rate of token consumption",19,TokenUsageIssues BillingIssues TimeoutIs,16,#F1C40F
+5425,Chrome extension: MCP reports connected but never connects to native host socket,10,Chrome_Connection_Issues,11,#E67E22
+5470,[Bug] Session token limit consumption rate appears lower than expected,19,TokenUsageIssues BillingIssues TimeoutIs,10,#F1C40F
+5492,"[BUG] Claude Code produces false claims in technical documents, compounds errors during correction",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+5522,[BUG] Remote Control not yet enabled for Pro account (Windows 11),1,RemoteControlIssues,5,#8BC34A
+5531,claude --chrome: MCP shows connected but tool calls fail with 'Browser extension is not connected',10,Chrome_Connection_Issues,20,#E67E22
+5537,Claude Code does not follow user instructions consistently,23,Bug Freeze NotWorking IgnoringInstructio,15,#E74C3C
+5565,[BUG]  API Error: Rate limit reached,2,AnthropicAPI_RateLimitError,30,#1ABC9C
+5569,[BUG] Usage explosion,13,BUG_USAGE_LIMITS,4,#F06292
+5584,Claude Code desktop app: process exits with code 1 immediately on every message send,23,Bug Freeze NotWorking IgnoringInstructio,6,#E74C3C
+5591,[BUG] Prompts in Claude Code (Web) disapear,23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+5598,Claude Code repeatedly ignores explicit CLAUDE.md instructions and saved feedback memories across sessions,23,Bug Freeze NotWorking IgnoringInstructio,7,#E74C3C
+5599,[BUG] Rate limit triggered incorrectly on Max Plan with 0% usage,11,rate_limit_issues usage_limits max_plan_,6,#FF5252
+5604,Claude Code repeatedly ignores its own auto-memory feedback during sessions,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+5611,CLI --chrome flag does not connect to native host socket,10,Chrome_Connection_Issues,3,#E67E22
+5656,Claude Code hangs on simple settings update (Coalescing stuck at 50s+),23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+5676,Claude in Chrome extension fails to connect on macOS (Chrome 146.0),10,Chrome_Connection_Issues,26,#E67E22
+5686,Claude for Windows cannot connect to Claude in Chrome,10,Chrome_Connection_Issues,4,#E67E22
+5696,[BUG] API Error: Rate limit reached despite Claude Max subscription with only 5% session usage,24,RateLimitIssuesProSubscription,3,#4CAF50
+5710,[Bug] Anthropic API Error: Rate limit reached without reaching actual limits,2,AnthropicAPI_RateLimitError,39,#1ABC9C
+5732,[BUG] Claude Code ignores explicit instructions in memory/CLAUDE.md files,23,Bug Freeze NotWorking IgnoringInstructio,19,#E74C3C
+5739,Claude in Chrome browser extension not connecting to Claude Code,10,Chrome_Connection_Issues,25,#E67E22
+5765,[BUG]  API Error: Rate limit reached,2,AnthropicAPI_RateLimitError,30,#1ABC9C
+5798,[BUG] MAX100 subscription - abnormal quota consumption and rate_limit_error with multi-session Claude Code,24,RateLimitIssuesProSubscription,1,#4CAF50
+5811,[BUG] claude chrome extension has been out for over a month,10,Chrome_Connection_Issues,3,#E67E22
+5815,Claude Code responding super slowly,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+5822,[BUG] Claude Code Usage for Max Plan hitting limits extremely fast,12,memory_leak kernel_allocation api_error ,5,#2ECC71
+5858,Claude repeatedly fails to apply its own memory/feedback — same mistakes recur across sessions,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+5946,[BUG] Claude Code response issue,23,Bug Freeze NotWorking IgnoringInstructio,10,#E74C3C
+5998,[Bug] Claude Code model regression: degraded code quality and reliability,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+6010,Chrome MCP extension not connecting - browser extension not detected,10,Chrome_Connection_Issues,13,#E67E22
+6056,[BUG] Claude in Chrome v1.0.63 - Extension not connecting to Claude Code after March 20 update,10,Chrome_Connection_Issues,24,#E67E22
+6110,[Bug] Claude responses degraded after recent service outage,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+6135,"[BUG] I am on Max 5x plan, why do I not see the 1 million context in Claude Code. I am using Opus 4.6.",3,Opus_46_Issues Context_Limit Token,2,#9B59B6
+6138,Chrome extension: MCP server never connects to native host socket,10,Chrome_Connection_Issues,12,#E67E22
+6144,Auto-compact not triggering on resumed sessions with Opus 4.6 (1M context),3,Opus_46_Issues Context_Limit Token,2,#9B59B6
+6216,[Bug] Context limit error reported despite low actual usage with Claude 4.6 Opus 1M context,3,Opus_46_Issues Context_Limit Token,6,#9B59B6
+6221,Opus 4.6 (1M context) disappeared from Desktop app model dropdown — Max plan regression,3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+6269,[BUG] unable to use claude remote-control,1,RemoteControlIssues,8,#8BC34A
+6271,"[BUG] Claude Code Mac Desktop App — messages sent but no response, screen stays blank",18,Unresponsive_Mac_Desktop,1,#2ECC71
+6280,"Claude in Chrome: 'Browser extension is not connected' despite correct setup (macOS, Claude Desktop coexistence)",10,Chrome_Connection_Issues,24,#E67E22
+6305,[BUG] Updating to Claude 1.1.7714 (3bd6f6) causes Claude Code to stop responding to any prompts,23,Bug Freeze NotWorking IgnoringInstructio,13,#E74C3C
+6329,[Bug] Claude ignores memory file instructions and hallucinates code behavior,23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+6335,[Bug] Claude Desktop Code mode unresponsive - no loading indicator after message send,18,Unresponsive_Mac_Desktop,2,#2ECC71
+6375,Claude Opus 4.6,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+6382,[BUG] Claude in Chrome not connecting to Claude Code CLI,10,Chrome_Connection_Issues,16,#E67E22
+6441,[BUG]  .claudeignore does not prevent Claude from reading ignored files,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+6446,[BUG] API Rate limit stuck on claude code,12,memory_leak kernel_allocation api_error ,7,#2ECC71
+6470,"[BUG] Claude Code hangs/freezes mid-response frequently (v2.1.79, macOS, M4 Pro)",23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+6526,[BUG] CLAUDE CODE NEVER RESPONDS ANYMORE,23,Bug Freeze NotWorking IgnoringInstructio,39,#E74C3C
+6549,"[BUG] Claude Code hangs with ""Interrupted"" error on Windows (native)",23,Bug Freeze NotWorking IgnoringInstructio,13,#E74C3C
+6564,[Bug] OpusPlan model fails to switch back to Opus after plan generation,6,Model_Issues Token_Consumption Downgrade,3,#FF9800
+6590,[BUG] claude remote-control does not work,1,RemoteControlIssues,6,#8BC34A
+6625,[BUG] claudeCode.gitBashPath setting not working on Windows - panel UI still shows Git Bash error,21,GitBash_Issues_Windows,2,#E74C3C
+6627,[Bug] Claude Code freezes during execution,23,Bug Freeze NotWorking IgnoringInstructio,26,#E74C3C
+6641,[Bug] Anthropic API Error: HTTP 529 Service Overloaded,9,Anthropic_API_Overload,11,#FF5722
+6642,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+6643,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+6644,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+6647,[Bug] Anthropic API Error: Overloaded - Retry Mechanism Ineffective,9,Anthropic_API_Overload,17,#FF5722
+6648,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+6661,[BUG] Interrupted · What should Claude do instead?,16,BUG_Claude INTERRUPTED_MESSAGE AN,3,#69F0AE
+6683,[BUG] File Corruption When Running Multiple Claude Code Terminals,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+6686,Claude in Chrome: Browser extension not connected despite correct setup,10,Chrome_Connection_Issues,28,#E67E22
+6693,/model opusplan does not use Opus 4.6 for planning phase,6,Model_Issues Token_Consumption Downgrade,2,#FF9800
+6721,[Bug] Claude Code performance degradation and compilation failures,12,memory_leak kernel_allocation api_error ,10,#2ECC71
+6735,[BUG] Errors 500 in Claude Code Desktop in Windows 11,20,Crash Launch Failure Hang Freeze Error,1,#607D8B
+6745,"[BUG] API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""message"":""Internal server error""},""request_id""",15,InternalServerError500,24,#00BCD4
+6747,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+6751,[Bug] Anthropic API Error: Overloaded (529),9,Anthropic_API_Overload,32,#FF5722
+6758,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+6760,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+6762,[BUG] in Claude code Desktop - model Opus 4.6,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+6763,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+6766,[BUG] [Bug] Anthropic API Error: Persistent 500 Internal Server Error across all models,4,Anthropic_API_Errors_500,54,#3498DB
+6768,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+6770,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+6771,[Bug] Anthropic API Error: Server 500 Outage,4,Anthropic_API_Errors_500,55,#3498DB
+6772,"[BUG] API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""message"":""Internal server error""},""request_id"":""req_011CZ9DevVB5SScBuQrpfobu""}",15,InternalServerError500,25,#00BCD4
+6774,[Bug] Anthropic API Error: Internal server error (500),4,Anthropic_API_Errors_500,68,#3498DB
+6775,[Bug] Anthropic API Error: 500 Internal Server Error with Claude Opus 4.6,4,Anthropic_API_Errors_500,45,#3498DB
+6776,[BUG] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+6789,[BUG] Claude Code process exited with code 1 (desktop app),23,Bug Freeze NotWorking IgnoringInstructio,25,#E74C3C
+6790,Recurring: Claude ignores memory/CLAUDE.md instructions across multiple sessions,23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+6832,[BUG] Claude code browser (CLI) bug - pro plan,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+6849,[MODEL] Claude Code disregards the stored instructions,5,IgnoresInstructions,3,#F1C40F
+6876,[BUG] User prompts not displayed in conversation when using Claude Code via browser,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+6877,[Bug] Anthropic API Error: Rate limit reached on Pro account without active API key,2,AnthropicAPI_RateLimitError,5,#1ABC9C
+6911,[BUG]  Claude Code sends repeated requests hundreds of times without stopping,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+6946,"[BUG] CLI returns ""API Error: Rate limit reached"" on every command despite Pro subscription and available quota",2,AnthropicAPI_RateLimitError,2,#1ABC9C
+6970,[BUG] [1M] Opus 4.6 1M context unavailable on Max 5x — works on another machine with same account,3,Opus_46_Issues Context_Limit Token,3,#9B59B6
+6980,[Bug] Claude Code: Inconsistent or unreliable response behavior,23,Bug Freeze NotWorking IgnoringInstructio,7,#E74C3C
+7003,[MODEL] 1M Opus still degrades around 150k context,3,Opus_46_Issues Context_Limit Token,4,#9B59B6
+7023,[BUG] Rate limit reached without any usage spent,13,BUG_USAGE_LIMITS,7,#F06292
+7027,Sonnet 4.6 1M context unavailable on Max 20x plan - only Opus 1M appears in /model,6,Model_Issues Token_Consumption Downgrade,4,#FF9800
+7042,[BUG]  NON PERSISTENCE OF MEMORY IN CLAUDE CODE CLI AND LESS IN CLAUDE.AI,12,memory_leak kernel_allocation api_error ,5,#2ECC71
+7054,[BUG] Claude Code for VS Code extension fails to work since 2.1.73 upgrade,7,vscode_issues api_error extension_breaks,8,#E91E63
+7064,[Bug][Urgent] Claude Code API responses extremely slow with Claude 4.6 Sonnet/Opus (5+ minute latency),12,memory_leak kernel_allocation api_error ,2,#2ECC71
+7072,"[BUG] Opus 4.6 (1M context) model variant causes immediate ""API Error: Rate limit reached"" on Pro plan via /model selector",3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+7075,Opus 4.6 with 1M context unavailable for Max 5x subscriber,3,Opus_46_Issues Context_Limit Token,4,#9B59B6
+7079,[Bug] Claude Code causes excessive memory usage and process spawning leading to system DoS,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+7091,[MODEL] Claude Code ignores explicit instructions and substitutes its own alternatives,5,IgnoresInstructions,4,#F1C40F
+7097,Git not detected in Claude Code desktop app on Windows despite correct installation,21,GitBash_Issues_Windows,2,#E74C3C
+7102,"[BUG] Linux CC fails to use 1M context if you have ""opus"" defined in settings",3,Opus_46_Issues Context_Limit Token,3,#9B59B6
+7112,[BUG] Model opusplan still using 200K context for either mode,3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+7114,"[BUG] Claude Code commits without permission, despite repeated instructions to NOT commit",23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+7130,[BUG] API Error: Rate limit reached,2,AnthropicAPI_RateLimitError,30,#1ABC9C
+7144,"[BUG] Opus 4.6 returns ""Rate limit reached"" mid-session on Claude Pro plan",3,Opus_46_Issues Context_Limit Token,2,#9B59B6
+7151,[BUG] Opus 4.6 with 1M context is not available on Max 5x plan,3,Opus_46_Issues Context_Limit Token,12,#9B59B6
+7152,Opus 4.6 (1M context): autocompact triggers at ~76K tokens — 92% of context window wasted,3,Opus_46_Issues Context_Limit Token,5,#9B59B6
+7166,[Bug] API Error: Rate limit reached on Max Plan subscription,2,AnthropicAPI_RateLimitError,4,#1ABC9C
+7173,[Bug] Claude Code ignores memory and claude.md files during execution,23,Bug Freeze NotWorking IgnoringInstructio,8,#E74C3C
+7175,Context compaction triggers at ~16% usage on Opus 4.6 (1M context),3,Opus_46_Issues Context_Limit Token,9,#9B59B6
+7185,[Bug] Claude Code hangs indefinitely during thinking phase with no output or response,23,Bug Freeze NotWorking IgnoringInstructio,17,#E74C3C
+7190,[BUG] Claude Code continually ignores CLAUDE.MD file,23,Bug Freeze NotWorking IgnoringInstructio,20,#E74C3C
+7201,Opus 4.6 shows 200K context instead of 1M on Claude Max plan (v2.1.75),3,Opus_46_Issues Context_Limit Token,7,#9B59B6
+7214,[Bug] Anthropic API Error: Rate limit exceeded despite available quota,2,AnthropicAPI_RateLimitError,28,#1ABC9C
+7255,"claude-in-chrome MCP: ""Browser extension is not connected"" on macOS Intel — all install methods fail",10,Chrome_Connection_Issues,5,#E67E22
+7283,[BUG] VS Code & Claude Code,23,Bug Freeze NotWorking IgnoringInstructio,10,#E74C3C
+7322,[BUG] Claude in Chrome doesn't connect when Claude Desktop is also installed,10,Chrome_Connection_Issues,7,#E67E22
+7330,Claude Code repeatedly ignores CLAUDE.md rules — manually generates artifacts instead of using configured skills,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+7358,[BUG] Claude code for VS Code OAuth token expiry not handled gracefully,8,auth-timeout oauth-expiry login-fail,2,#9C27B0
+7366,"Claude Code OAuth login fails with a timeout error. `auth.anthropic.com` does not resolve via DNS, making it impossible to authenticate.",8,auth-timeout oauth-expiry login-fail,1,#9C27B0
+7394,"[BUG] In ""Ask before edit"" permission mode, Claude Code executes Edit/Write tool calls without displaying a confirmation prompt to the user. Multiple files were modified across several tool calls with no opportunity to approve or deny.",23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+7470,[BUG] Claude Code systematically ignores rules from memory/CLAUDE.md on every edit/write,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+7508,[BUG] Bug: Extra Usage charged despite available plan capacity + false rate limit errors in Claude Code,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+7545,[Bug] Claude reads files but ignores actionable instructions contained in them,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+7546,[Bug] Claude generates incorrect code/SQL and reports it as complete without validation,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+7565,[BUG] Claude Code in desktop app not responsive,23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+7568,[BUG] Claude Code in desktop app not responsive,23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+7646,[BUG] Claude Code appears twice in VSCode sidebar after extension update,7,vscode_issues api_error extension_breaks,2,#E91E63
+7659,[BUG] VSCode extension: Bash tool does not capture stdout (commands run in popup terminal window),21,GitBash_Issues_Windows,1,#E74C3C
+7661,[BUG] Max Plan ($200/month) session limit depletes within 1 hour of normal usage — support unresponsive,11,rate_limit_issues usage_limits max_plan_,2,#FF5252
+7668,"[BUG] Cannot load ""Claude Code for VS Code"" extension when open project with ""Remote Repositories""",7,vscode_issues api_error extension_breaks,3,#E91E63
+7687,Windows: 3 extra VS Code windows open when starting claude from integrated terminal,7,vscode_issues api_error extension_breaks,4,#E91E63
+7745,[FEATURE] Unarchive Claude Code sessions in desktop app option,0,BUG Feature Request Remote Access Multi-,2,#E67E22
+7748,"[BUG] ""Your account does not have access to Claude Code. Please run /login.""",23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+7771,[BUG] CLAUDE CODE CLI: API Error: Rate limit reached,12,memory_leak kernel_allocation api_error ,7,#2ECC71
+7791,[BUG] VS Code extension ignores CLAUDE_CONFIG_DIR environment variable,7,vscode_issues api_error extension_breaks,1,#E91E63
+7803,Claude Code repeatedly fails to follow project-level CLAUDE.md instructions,23,Bug Freeze NotWorking IgnoringInstructio,8,#E74C3C
+7832,Opus/Sonnet 1M context variants broken on Max 20x — misleading 'Rate limit reached' error,6,Model_Issues Token_Consumption Downgrade,1,#FF9800
+7865,CLAUDE_CODE_OAUTH_TOKEN breaks Chrome extension (--chrome),10,Chrome_Connection_Issues,1,#E67E22
+7904,[BUG] API Error: Rate limit reached despite Claude Max subscription and only 16% usage,24,RateLimitIssuesProSubscription,8,#4CAF50
+7914,"[BUG] ""Remote Control environments are not available for your account."" for Claude Code Pro Plan user",1,RemoteControlIssues,1,#8BC34A
+7931,"[BUG] Opus 1M context window suddenly returns ""Rate limit reached"" on both Max and Team plans (200K works fine)",3,Opus_46_Issues Context_Limit Token,10,#9B59B6
+7957,Claude Code Chrome integration fails to connect when Claude Desktop (Cowork) is also installed,10,Chrome_Connection_Issues,7,#E67E22
+7974,Opus 4.6 (1M context) hits 'API Error: Rate limit reached' on Max subscription,3,Opus_46_Issues Context_Limit Token,4,#9B59B6
+7981,[FEATURE] Max plan usage limits silently reduced since Claude 4.6 release,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+7985,[Bug] Remote Control unavailable despite Pro plan authentication,1,RemoteControlIssues,4,#8BC34A
+7988,Remote Control not enabled despite Pro subscription,1,RemoteControlIssues,3,#8BC34A
+7992,[Bug] Rate Limit Error persists after increasing plan limits and adding funds and Max plan only at 33% used,11,rate_limit_issues usage_limits max_plan_,3,#FF5252
+8000,[BUG] Tried to Download Claude Desktop for the first time in OS Tahoe 26.3 and keep getting Failure to Launch error message,20,Crash Launch Failure Hang Freeze Error,2,#607D8B
+8009,[BUG] Hitting much faster usage limits than before,13,BUG_USAGE_LIMITS,4,#F06292
+8015,[BUG] remote-control command not available on Pro account,1,RemoteControlIssues,6,#8BC34A
+8031,"Claude Desktop 1.1.4173 crashes on startup — no window renders, process visible in Task Manager",20,Crash Launch Failure Hang Freeze Error,1,#607D8B
+8058,"[BUG] `claude remote-control` shows misleading ""Contact your administrator"" error for personal (Pro/Max) accounts",1,RemoteControlIssues,1,#8BC34A
+8059,"[BUG] CLI-only ""API Error: Rate limit reached"" on every request despite 97% quota remaining (Max 20x plan)",2,AnthropicAPI_RateLimitError,3,#1ABC9C
+8073,[BUG] VS Code extension ignores CLAUDE_CODE_GIT_BASH_PATH environment variable on Windows,21,GitBash_Issues_Windows,3,#E74C3C
+8084,"[BUG] No Chrome extension connected"" error provides no guidance on how to reconnect",10,Chrome_Connection_Issues,1,#E67E22
+8098,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+8099,Claude Desktop: Built-in MCP servers 'Claude in Chrome' and 'mcp-registry' fail to connect (Failed to get account UUID),10,Chrome_Connection_Issues,1,#E67E22
+8130,[Bug] Rate limit error despite low API usage when using Opus 4.6 (1m),3,Opus_46_Issues Context_Limit Token,5,#9B59B6
+8140,Model ignores CLAUDE.md instructions despite reading them at session start,5,IgnoresInstructions,1,#F1C40F
+8147,Claude Code ignores permission modes and makes unauthorized file edits,23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+8163,[Bug] Unexpected high token consumption after quota renewal,19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+8178,Session permanently stuck on 'Rate limit reached' after transient rate limit,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+8195,API Error: Rate limit reached,2,AnthropicAPI_RateLimitError,23,#1ABC9C
+8217,[BUG] [URGENT!!!] Claude Code is hanging / freezing / stuck on heaps of prompts for 5-20minutes or more.,23,Bug Freeze NotWorking IgnoringInstructio,19,#E74C3C
+8245,Rate limit errors show 'API Error' without distinguishing usage vs throughput limits,2,AnthropicAPI_RateLimitError,4,#1ABC9C
+8259,[BUG] API Error: Rate limit reached incorrect in CLI,2,AnthropicAPI_RateLimitError,15,#1ABC9C
+8285,Claude in Chrome: 'Browser extension is not connected' despite correct setup (v2.1.39 + ext v1.0.47),10,Chrome_Connection_Issues,11,#E67E22
+8292,Claude in Chrome MCP server fails to connect to native host bridge socket,10,Chrome_Connection_Issues,18,#E67E22
+8296,[BUG] Claude-in-Chrome: Browser extension persistently fails to connect from CLI,10,Chrome_Connection_Issues,21,#E67E22
+8318,[BUG] Can't see Claude's thinking anymore,16,BUG_Claude INTERRUPTED_MESSAGE AN,3,#69F0AE
+8327,[BUG] CLAUDE_CODE_MAX_OUTPUT_TOKENS has no effect on Opus 4.6 — output stays capped at 32000,3,Opus_46_Issues Context_Limit Token,3,#9B59B6
+8348,Opus 4.6 token consumption significantly higher than 4.5 - quota feedback from Max subscribers,3,Opus_46_Issues Context_Limit Token,2,#9B59B6
+8350,[Bug] Anthropic API Error: Long context beta unavailable for Max plan with Claude Opus 4.6 1M,3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+8371,[Bug] /context command reports 200K max for Claude Opus 4.6 instead of 1M,3,Opus_46_Issues Context_Limit Token,7,#9B59B6
+8379,[BUG] CLAUDE CODE panel appears broken by default; Plan Mode behavior is undocumented and undiscoverable,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+8387,[BUG] Claude Desktop auto-quits after 5 minutes idle (SessionIdleManager 300s timeout),23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+8390,[Bug] Rate limit triggered before reaching session usage limit (71%),19,TokenUsageIssues BillingIssues TimeoutIs,8,#F1C40F
+8421,[BUG] Critical Bug: Claude Code Spontaneously Executes Commands and Repeats Responses in Infinite Loop,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+8432,Claude Code doesn't see pasted prompt,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+8438,[BUG] Claude enters plan mode automatically without waiting for user   approval,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+8441,"[BUG]  Claude Code v2.1.27 gets stuck on the first message, with very high memory usage.",12,memory_leak kernel_allocation api_error ,2,#2ECC71
+8459,Claude in Chrome extension not connecting despite MCP server showing connected,10,Chrome_Connection_Issues,19,#E67E22
+8480,Claude in Chrome extension not connecting despite being installed and enabled,10,Chrome_Connection_Issues,35,#E67E22
+8484,"Claude in Chrome extension not connecting on Windows despite MCP server showing ""connected""",10,Chrome_Connection_Issues,16,#E67E22
+8489,[BUG] API 400 error,15,InternalServerError500,10,#00BCD4
+8492,[MODEL]Claude Code ignores user instructions and copies from training examples,5,IgnoresInstructions,2,#F1C40F
+8504,Claude in Chrome MCP: Browser extension not connected despite extension working,10,Chrome_Connection_Issues,26,#E67E22
+8505,"[BUG] launching a new Claude Code for VS code tab repeatedly kills the Extension host ""Extension host terminated unexpectedly""",7,vscode_issues api_error extension_breaks,1,#E91E63
+8542,"[Bug] Claude Code hangs unresponsively on macOS M1, requires terminal force-close",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+8548,Claude in Chrome browser extension not connecting to Claude Code CLI,10,Chrome_Connection_Issues,27,#E67E22
+8553,[BUG] Claude Code Installation Failure Report - Replit Environment,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+8580,[BUG]Claude Code ignores CLAUDE.md rules repeatedly despite acknowledgment,23,Bug Freeze NotWorking IgnoringInstructio,11,#E74C3C
+8589,[Bug] Claude Code performance degradation after recent update,12,memory_leak kernel_allocation api_error ,16,#2ECC71
+8594,[BUG] Unable to access Claude Code after successful OAuth login with Google account,8,auth-timeout oauth-expiry login-fail,1,#9C27B0
+8602,OAuth token expired immediately after fresh login - cannot use Claude Code (blocking),8,auth-timeout oauth-expiry login-fail,2,#9C27B0
+8622,[BUG] Memory leak in long-running idle Claude Code sessions,12,memory_leak kernel_allocation api_error ,4,#2ECC71
+8660,[BUG] Rate Limit Message Infinite Loop,13,BUG_USAGE_LIMITS,1,#F06292
+8661,[BUG] Usage Concerns,13,BUG_USAGE_LIMITS,1,#F06292
+8689,[BUG] Installing plugins on Claude Code for Web Envs not working as expected,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+8713,[BUG] An error occurred while executing Claude Code,23,Bug Freeze NotWorking IgnoringInstructio,27,#E74C3C
+8714,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+8735,[Bug] Claude Code CLI performance degradation after sustained usage,12,memory_leak kernel_allocation api_error ,7,#2ECC71
+8758,[BUG] Claude Does Not Follow Prompts Through Completion since 2.1.x update,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+8760,[BUG] Opus 4.5 usage limits significantly reduced since January 2026 - most restrictive since Opus 4.5 launch,3,Opus_46_Issues Context_Limit Token,3,#9B59B6
+8765,"[BUG] Claude hitting usage limits in no time, something broken for sure",12,memory_leak kernel_allocation api_error ,2,#2ECC71
+8766,[BUG] opusplan setting doesn't switch to Opus during plan mode,6,Model_Issues Token_Consumption Downgrade,4,#FF9800
+8774,[Bug] Excessive token usage in Claude Code 2.1.1 - 4x+ faster rate consumption than previous versions,12,memory_leak kernel_allocation api_error ,4,#2ECC71
+8797,[BUG] Error launching VSCode Claude Code extension,7,vscode_issues api_error extension_breaks,12,#E91E63
+8827,[BUG] Instantly hitting usage limits with Max subscription,24,RateLimitIssuesProSubscription,1,#4CAF50
+8835,[Bug] Anthropic API Rate Limiting: Usage quota exceeded rapidly with minimal requests,2,AnthropicAPI_RateLimitError,19,#1ABC9C
+8847,[Feature Request] Seamless session sharing between Claude Code and Claude Desktop,0,BUG Feature Request Remote Access Multi-,4,#E67E22
+8858,"[BUG]'s 💔 I love Claude Code, but the pace is outrunning the quality - and it's costing us trust",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+8928,Feature Request: Persistent Memory Between Claude Code Sessions,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+8943,[BUG] Claude forgets about plans,16,BUG_Claude INTERRUPTED_MESSAGE AN,3,#69F0AE
+8966,[Bug] Max plan usage consumed at unusually high rate without workflow changes,11,rate_limit_issues usage_limits max_plan_,3,#FF5252
+8985,[Bug] Claude Code hangs without response since v2.0.60,23,Bug Freeze NotWorking IgnoringInstructio,31,#E74C3C
+8986,[Bug] Claude Code hangs indefinitely during processing with no error output,23,Bug Freeze NotWorking IgnoringInstructio,32,#E74C3C
+9026,[BUG] Plan mode creates `/.claude/plans` and is over optimizing on simple prompt,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+9030,[Bug] Claude Code freezes intermittently on Windows Terminal,23,Bug Freeze NotWorking IgnoringInstructio,12,#E74C3C
+9063,Critical Memory Leak: Claude Code Consumed 129GB RAM and Caused System Freeze,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+9078,[BUG] Claude Code consistently degrades in performance over long sessions,12,memory_leak kernel_allocation api_error ,16,#2ECC71
+9133,[BUG] claude setup-token/CLAUDE_CODE_OAUTH_TOKEN is not enough to authenticate claude,8,auth-timeout oauth-expiry login-fail,2,#9C27B0
+9156,[Bug] Anthropic API Error: Credential Restricted to Claude Code,9,Anthropic_API_Overload,1,#FF5722
+9198,[BUG] Claude forgets everything in CLAUDE.md after compaction,16,BUG_Claude INTERRUPTED_MESSAGE AN,2,#69F0AE
+9211,[BUG] Claude Code using 100% of cpu and Memory Resources,12,memory_leak kernel_allocation api_error ,9,#2ECC71
+9233,Claude Code Memory Leak - Process Grows to 120+ GB RAM and Gets OOM Killed,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+9272,[BUG] Claude Code Configuration File Corruption,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+9288,[BUG] Claude Code repeatedly ignores CLAUDE.md security guidelines and exposes API keys to version control,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+9300,[BUG] ignores # prefix instructions for CLAUDE.md updates,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+9303,[BUG] Claude code requires users to constantly login,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+9305,[BUG] Claude Code frequently loses track of which directory it is in,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+9333,[Bug] Anthropic API Error: Unable to process request,4,Anthropic_API_Errors_500,56,#3498DB
+9340,Feature: Multi-session coordination — allow Claude Code sessions to communicate,0,BUG Feature Request Remote Access Multi-,3,#E67E22
+9360,VSCode extension /resume doesn't respect CLAUDE_CONFIG_DIR from claudeCode.environmentVariables,7,vscode_issues api_error extension_breaks,2,#E91E63
+9364,[Bug] Unexpected High Token Usage on Simple Context-Only Queries,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+9366,[BUG] Opus 4.6 stuck at 200k context on Max plan — s1mAccessCache hasAccess:false persists after re-auth (v2.1.107),3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+9395,API Error 500 at ~175K context — 1M window not active on Max plan (Opus 4.6),3,Opus_46_Issues Context_Limit Token,6,#9B59B6
+9396,[Bug] Anthropic API Error: Unexpected 500 Server Errors,4,Anthropic_API_Errors_500,69,#3498DB
+9397,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+9399,[Bug] Internal Server Error from Anthropic API,4,Anthropic_API_Errors_500,62,#3498DB
+9400,"API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""...",15,InternalServerError500,23,#00BCD4
+9401,[Bug] Claude Code CLI Not Functioning,23,Bug Freeze NotWorking IgnoringInstructio,14,#E74C3C
+9414,[Bug] Anthropic API: Unexpected charges for Opus 1M context window on MAX plan,3,Opus_46_Issues Context_Limit Token,8,#9B59B6
+9445,[BUG] Memory leak: Claude Code RSS grows from 500MB to 4.6GB+ within minutes,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+9449,Claude in Chrome extension stops connecting spontaneously — MCP shows connected but extension reports not connected,10,Chrome_Connection_Issues,16,#E67E22
+9450,Claude in Chrome extension stops connecting spontaneously — MCP connected but extension reports not connected,10,Chrome_Connection_Issues,16,#E67E22
+9491,[BUG] Claude Code (Desktop) fails to launch on Windows 11 Pro 25H2 (Build 26200.8037),20,Crash Launch Failure Hang Freeze Error,5,#607D8B
+9502,[Bug] Rate limit consumption unexpectedly high for Claude Code CLI,12,memory_leak kernel_allocation api_error ,6,#2ECC71
+9505,Claude in Chrome extension not connecting to Claude Code desktop app (Windows 11),10,Chrome_Connection_Issues,20,#E67E22
+9520,[Bug] Usage limits silently reduced without notification,13,BUG_USAGE_LIMITS,1,#F06292
+9526,[Bug] Non-Opus models consume tokens when only Opus 4.6 specified,3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+9560,"claude-in-chrome tools stay disconnected after Claude Desktop uninstall, even with healthy native host",10,Chrome_Connection_Issues,2,#E67E22
+9565,C:/Program Files/Git/model opus sets 200k context window instead of 1M on Max plan,3,Opus_46_Issues Context_Limit Token,2,#9B59B6
+9566,Claude Code edits files while in Plan mode,23,Bug Freeze NotWorking IgnoringInstructio,6,#E74C3C
+9589,[Bug] Context window underutilization: 88k of 1M tokens used before session interruption,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+9615,Bug Report - Extreme usage limit drain on Max Plan with Claude Code (one prompt consumes huge amounts),12,memory_leak kernel_allocation api_error ,2,#2ECC71
+9676,[Bug] Claude 4.6 Opus generating corrupted/garbled output with invalid tokens,3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+9683,I need a bug report or feature request description to generate a GitHub issue title. Please provide details about the problem you'd like to report.,17,"1 Bug Report Details
+2 Feature Request D",8,#795548
+9686,[BUG] Usage limit hit in ~2 minutes after 1 request,13,BUG_USAGE_LIMITS,2,#F06292
+9694,[BUG] Claude Code stopped working after update,23,Bug Freeze NotWorking IgnoringInstructio,32,#E74C3C
+9696,[Bug] Anthropic API Error: Corrupted or malformed response output,4,Anthropic_API_Errors_500,9,#3498DB
+9711,"[BUG] Claude Desktop 1.1617.0.0 fails to launch on Windows 11 — app crashes immediately, no window renders",20,Crash Launch Failure Hang Freeze Error,4,#607D8B
+9715,[Bug] Claude Code agent stuck in infinite loop or hanging state,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+9727,"[BUG] Claude Code VS Code Extension — ""Interrupted During Launch"" Bug on Apple Silicon Mac",7,vscode_issues api_error extension_breaks,1,#E91E63
+9754,[Bug] Rate limit exceeded immediately on first use,13,BUG_USAGE_LIMITS,4,#F06292
+9755,[Bug] Anthropic API Error: 429 Rate Limit with Multiple Parallel Sessions Below Usage Cap,2,AnthropicAPI_RateLimitError,7,#1ABC9C
+9865,[Bug] Anthropic API Error: Garbled/Corrupted Response Output,4,Anthropic_API_Errors_500,7,#3498DB
+9870,Claude in Chrome: MCP client not discovering local socket on Linux despite working native host,10,Chrome_Connection_Issues,12,#E67E22
+9883,[Bug] Excessive token consumption and latency on single-word prompts,14,ExcessiveTokenConsumption PromptCacheIss,4,#2196F3
+9910,--chrome flag registers deferred tools but never connects to native host socket,10,Chrome_Connection_Issues,1,#E67E22
+9915,Claude Code ignores permission settings and makes unauthorised changes,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+9916,[Bug] Anthropic API Error: Usage Policy Violation with Model Corruption on Claude 3.5 Opus,22,"Anthropic_API_Error
+
+Issues
+- Feature",1,#1ABC9C
+9918,[Bug] Claude Code performance degradation - reasoning quality decline,12,memory_leak kernel_allocation api_error ,10,#2ECC71
+9942,[BUG] LIMITS,13,BUG_USAGE_LIMITS,1,#F06292
+9954,[Bug] Anthropic API Error: Unexpected token consumption or rate limit exceeded,2,AnthropicAPI_RateLimitError,33,#1ABC9C
+10036,[Bug] Claude Code ignores claude.md safety instructions for destructive commands,23,Bug Freeze NotWorking IgnoringInstructio,15,#E74C3C
+10043,"I appreciate the detailed self-assessment, but I need to clarify: this appears to be a personal reflection on development process failures rather than a bug report for Claude Code itself.
+
+If you're reporting an issue with **Claude Code** (Anthropic's CLI",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+10052,[BUG] Claude Code hangs on any prompt when opened in specific subdirectory (Windows),23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+10070,[Bug] Claude Code not following user prompts correctly,23,Bug Freeze NotWorking IgnoringInstructio,9,#E74C3C
+10089,"Claude makes code edits without user approval when in ""Ask Permission"" mode",23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+10093,500 Internal Server Error (API Error),4,Anthropic_API_Errors_500,61,#3498DB
+10094,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+10097,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+10098,[Bug] Anthropic API Error: Internal server error (500),4,Anthropic_API_Errors_500,68,#3498DB
+10100,[BUG]  API Error: 500,15,InternalServerError500,21,#00BCD4
+10109,Excessive token consumption on Opus 4.6 — thinking tokens disproportionate to output,3,Opus_46_Issues Context_Limit Token,6,#9B59B6
+10114,[Bug] Anthropic API Error: Out of Extra Usage Despite Available Credits,2,AnthropicAPI_RateLimitError,5,#1ABC9C
+10117,"Paying for Opus, receiving Sonnet — silent model downgrade without consent",6,Model_Issues Token_Consumption Downgrade,2,#FF9800
+10119,[Bug] Anthropic API Error: Usage limit exceeded (request_id: req_011CZrabntnbrNvkWcLBVgGB),9,Anthropic_API_Overload,28,#FF5722
+10137,[BUG] Claude Chrome extension does not work on windows. I have spent many Claude sessions trying to fix that extension it does not work on Windows.,10,Chrome_Connection_Issues,1,#E67E22
+10141,[Bug] Claude Code CLI responses extremely slow (2+ minutes latency),12,memory_leak kernel_allocation api_error ,4,#2ECC71
+10146,[Bug] Anthropic API Error: 400 Invalid Request - Out of Extra Usage Despite Low Session/Weekly Usage,2,AnthropicAPI_RateLimitError,5,#1ABC9C
+10165,Claude in Chrome: MCP client never connects to native host bridge socket (macOS),10,Chrome_Connection_Issues,17,#E67E22
+10179,"I appreciate you sharing that, but I need a bug report or feature request in English to generate a GitHub issue title. 
+
+Could you please provide:
+1. A description of the problem or feature request
+2. Any error messages you're encountering
+3. Steps to repr",17,"1 Bug Report Details
+2 Feature Request D",5,#795548
+10225,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+10235,[Bug] Anthropic API Error: Overloaded (429/529 Response),9,Anthropic_API_Overload,38,#FF5722
+10243,[Bug] Anthropic API Error: Out of extra usage - 400 invalid_request_error,4,Anthropic_API_Errors_500,78,#3498DB
+10251,[Bug] Anthropic API Error: Out of extra usage despite remaining quota,2,AnthropicAPI_RateLimitError,14,#1ABC9C
+10256,[BUG] Claude Code v2.0.29 throws Error 400 on Max Plan,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+10261,[Bug] Anthropic API Error: Out of Extra Usage Despite Available Weekly Limits,2,AnthropicAPI_RateLimitError,10,#1ABC9C
+10271,[BUG] Dégradation critique de Claude Code – expérience utilisateur inacceptable,12,memory_leak kernel_allocation api_error ,4,#2ECC71
+10295,[Bug] Anthropic API Rate Limit: Unexpected quota depletion within seconds,2,AnthropicAPI_RateLimitError,10,#1ABC9C
+10307,"Claude Code hangs with zero token consumption for 25-30 minutes, requires force-exit",23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+10319,Claude Code noticeably slow all day (2026-04-08),12,memory_leak kernel_allocation api_error ,2,#2ECC71
+10324,[Bug] Excessive token consumption on small prompts for simple page generation,14,ExcessiveTokenConsumption PromptCacheIss,3,#2196F3
+10337,[Bug] Anthropic API Error: Rate limit reached despite zero usage,2,AnthropicAPI_RateLimitError,39,#1ABC9C
+10342,[BUG] Chrome extension connects to claude.ai instead of Claude Code CLI when Claude desktop app is installed,10,Chrome_Connection_Issues,18,#E67E22
+10434,[Bug] Unexpected high token usage consumption in single query,19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+10479,claude code code mode  sign in expired,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+10493,[BUG] Chrome Connection not possible with Cowork!,10,Chrome_Connection_Issues,2,#E67E22
+10509,[BUG] Opus 4.6 [1m] effective context window capped at 400K instead of 1M on Max plan,3,Opus_46_Issues Context_Limit Token,20,#9B59B6
+10524,"Claude Code refuses to act on clear user instructions, requires escalation",23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+10534,[Bug] Excessive token consumption in recent Claude Code versions,12,memory_leak kernel_allocation api_error ,8,#2ECC71
+10574,[Bug] Claude Code experiencing slow performance and freezing,23,Bug Freeze NotWorking IgnoringInstructio,21,#E74C3C
+10587,[Bug] Unexpected high token consumption on short prompts,14,ExcessiveTokenConsumption PromptCacheIss,6,#2196F3
+10591,[Bug] Excessive token consumption for simple queries - 74.8k tokens used with 5 tool calls,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+10605,[Bug] Session Token Limit Consumed Entirely in Single Operation,19,TokenUsageIssues BillingIssues TimeoutIs,7,#F1C40F
+10606,[Bug] Token limits depleting rapidly across sessions,19,TokenUsageIssues BillingIssues TimeoutIs,12,#F1C40F
+10608,Can't connect Claude --> Chrome,10,Chrome_Connection_Issues,9,#E67E22
+10633,[BUG] Claude code not conecting in CLI or extension,23,Bug Freeze NotWorking IgnoringInstructio,20,#E74C3C
+10638,[Bug] Claude Code ignores claude.md rules and makes unrequested changes,23,Bug Freeze NotWorking IgnoringInstructio,16,#E74C3C
+10644,[BUG] Claude Code OAuth login times out after browser authorization and ends in internal server error,8,auth-timeout oauth-expiry login-fail,3,#9C27B0
+10649,[BUG] CLAUDE DESKTOP HANG ON MACOS 26.4,20,Crash Launch Failure Hang Freeze Error,3,#607D8B
+10666,[Bug] Excessive token consumption compared to previous months,19,TokenUsageIssues BillingIssues TimeoutIs,12,#F1C40F
+10674,no way to debug claude chrome extension?,10,Chrome_Connection_Issues,1,#E67E22
+10675,Browser extension not connecting to Claude Code,10,Chrome_Connection_Issues,12,#E67E22
+10726,[Bug] Slow response time in Claude Code CLI,12,memory_leak kernel_allocation api_error ,4,#2ECC71
+10813,[Bug] Claude Code hangs indefinitely on prompt submission with no token updates,23,Bug Freeze NotWorking IgnoringInstructio,9,#E74C3C
+10818,[Bug] Excessive token consumption on simple requests with Claude Sonnet 4.6,6,Model_Issues Token_Consumption Downgrade,3,#FF9800
+10824,Claude in Chrome: MCP tool returns 'not connected' while socket is functional,10,Chrome_Connection_Issues,4,#E67E22
+10837,[Bug] Excessive token consumption in new session with file operations,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+10869,[BUG] Claude Code doesn't proactively use available skills when troubleshooting domain-specific problems,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+10883,[Bug] Claude Code ignores explicit user instructions and proceeds with unrelated tasks,23,Bug Freeze NotWorking IgnoringInstructio,13,#E74C3C
+10886,[BUG] the questionare while doing things with claude is very annoying.,16,BUG_Claude INTERRUPTED_MESSAGE AN,1,#69F0AE
+10959,[Bug] Claude executing unintended actions despite explicit user instructions,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+10963,"Chrome extension not connecting on macOS arm64 (Chrome 146, Claude Code v2.1.91)",10,Chrome_Connection_Issues,3,#E67E22
+10966,"[BUG]  Claude Desktop fails to launch on macOS Tahoe 26.x — ""Failed to get 'logs' path"" + Workaround/Fix Included",20,Crash Launch Failure Hang Freeze Error,4,#607D8B
+10981,[BUG] Claude Code won't update CLAUDE.md file via /memory command,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+10997,[BUG] API Error: Rate limit reached on Pro plan with no recent usage,24,RateLimitIssuesProSubscription,5,#4CAF50
+11033,[Bug] Excessive token usage for simple tasks.,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+11050,Claude in Chrome browser extension fails to connect despite all prerequisites being met,10,Chrome_Connection_Issues,29,#E67E22
+11065,Chrome extension service worker fails to initialize native host connection (mcpConnected stays false),10,Chrome_Connection_Issues,2,#E67E22
+11076,[Bug] Claude makes premature assumptions and executes actions without sufficient confirmation,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+11079,[Bug] Excessive token consumption with Opus 4.6 1M context window since March 23,3,Opus_46_Issues Context_Limit Token,11,#9B59B6
+11187,[BUG] https://github.com/claude-code-best/claude-code,17,"1 Bug Report Details
+2 Feature Request D",8,#795548
+11191,[BUG] Claude Code not respecting Plan Mode,23,Bug Freeze NotWorking IgnoringInstructio,11,#E74C3C
+11192,[BUG] Session usage limits,19,TokenUsageIssues BillingIssues TimeoutIs,7,#F1C40F
+11200,[Bug] Excessive token consumption during minimal operations,19,TokenUsageIssues BillingIssues TimeoutIs,17,#F1C40F
+11202,[Bug] Claude Code process hangs and becomes unresponsive requiring terminal restart,23,Bug Freeze NotWorking IgnoringInstructio,17,#E74C3C
+11221,"[Bug] Prompt caching not persisting across server reconnections, causing duplicate token usage",14,ExcessiveTokenConsumption PromptCacheIss,1,#2196F3
+11222,[BUG] Claude Desktop Code tab silently fails on macOS 14.4 arm64 - bundled binary exits code 1,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+11256,[Bug] Excessive token consumption even on short outputs,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+11259,Claude ignores CLAUDE.md and memory files — generates responses before reading stored instructions,23,Bug Freeze NotWorking IgnoringInstructio,8,#E74C3C
+11264,"I cannot generate a GitHub issue title from this submission as it is not a bug report or feature request. This appears to be positive feedback or a testimonial rather than a technical issue that needs to be addressed.
+
+If you're experiencing a specific pro",17,"1 Bug Report Details
+2 Feature Request D",5,#795548
+11301,Claude Code tab completely unresponsive — no model output on any prompt,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+11316,[BUG] Silent model downgrade from Opus to Sonnet at 200k tokens in Plan mode - no user notification,6,Model_Issues Token_Consumption Downgrade,3,#FF9800
+11329,[Bug] Rate limit error persists after plan upgrade to $200,11,rate_limit_issues usage_limits max_plan_,1,#FF5252
+11335,[BUG]Memory leak: Claude Code consumes excessive RAM --Memory leak: Claude Code consumes excessive RAM,12,memory_leak kernel_allocation api_error ,12,#2ECC71
+11401,[BUG] Claude sometimes claims a bug is fixed even when code changes and environment evidence are inconsistent.,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+11415,Claude in Chrome MCP: browser extension not connected despite working native host and socket,10,Chrome_Connection_Issues,29,#E67E22
+11450,[BUG] RATE LIMIT SUUUUUUUCKKSSSS,13,BUG_USAGE_LIMITS,2,#F06292
+11496,"Max plan: opus[1m] not available, Default shows Sonnet instead of Opus",6,Model_Issues Token_Consumption Downgrade,3,#FF9800
+11504,[Bug] Unexpected rapid token consumption exceeding previous usage patterns,19,TokenUsageIssues BillingIssues TimeoutIs,21,#F1C40F
+11525,[Bug] Claude hangs without token usage during extended thinking phases,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+11553,"I appreciate you reaching out, but I'm not able to process this as a legitimate bug report for Claude Code.
+
+This message contains personal commentary and allegations rather than a technical issue with the software. If you have a genuine technical bug or f",17,"1 Bug Report Details
+2 Feature Request D",2,#795548
+11577,[Bug] Claude Code completes too much context in single response,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+11585,[BUG] Claude Code sometimes does not continue. Need a ping message (status|continue),23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+11596,"Chrome extension always connects to Desktop native host, ignoring Claude Code native host on Windows",10,Chrome_Connection_Issues,7,#E67E22
+11623,Claude in Chrome: MCP tools return 'not connected' despite extension being installed and native host working,10,Chrome_Connection_Issues,19,#E67E22
+11625,[BUG] Optimize API token usage to reduce data consumption,19,TokenUsageIssues BillingIssues TimeoutIs,12,#F1C40F
+11653,Bug: Rate limit triggered despite 0% usage in /usage,2,AnthropicAPI_RateLimitError,2,#1ABC9C
+11662,"I appreciate the enthusiasm, but this appears to be positive feedback rather than a bug report or feature request that needs a GitHub issue title. 
+
+If you'd like to report an actual issue or suggest a feature for Claude Code, please provide details about:",17,"1 Bug Report Details
+2 Feature Request D",6,#795548
+11667,Claude Code ignores its own memory files when executing commands,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+11673,[Bug] Degraded Claude Code reasoning and execution quality within sessions,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+11683,Feature Request: Remote session management for Claude Code,0,BUG Feature Request Remote Access Multi-,4,#E67E22
+11700,[Bug] Claude Code hangs and exhibits unexpected behavior on every session,23,Bug Freeze NotWorking IgnoringInstructio,34,#E74C3C
+11719,[BUG] Claude not compacting,16,BUG_Claude INTERRUPTED_MESSAGE AN,1,#69F0AE
+11730,Claude in Chrome: native host socket bridge not functional on Linux,10,Chrome_Connection_Issues,5,#E67E22
+11749,[BUG] Claude executes actions based on its own suggestions without waiting for user confirmation,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+11750,[Feature Request] Token usage adjustment for Claude Code consumption bug,12,memory_leak kernel_allocation api_error ,4,#2ECC71
+11764,[BUG] Aggressive clearing of conversation history at ~2k tokens on Opus 4.6 (1M context) v2.1.89,3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+11780,"[BUG] ""Your account does not have access to Claude Code"" despite active Pro subscription and successful login",23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+11818,"I don't have enough information to generate a GitHub issue title from your message. Your comment appears to be a general question about Claude Code's functionality rather than a bug report or feature request.
+
+To help you effectively, please provide:
+
+1. *",17,"1 Bug Report Details
+2 Feature Request D",6,#795548
+11823,[Bug] Excessive token consumption compared to previous versions,19,TokenUsageIssues BillingIssues TimeoutIs,28,#F1C40F
+11830,"[BUG] Remote Control not available on Pro plan — ""unknown skill"" error on Windows",1,RemoteControlIssues,1,#8BC34A
+11844,"rateLimitTier set to ""default_claude_ai"" instead of ""default_claude_pro"" on Pro subscription — rate limit error with zero usage",24,RateLimitIssuesProSubscription,4,#4CAF50
+11877,[Bug] Claude Opus Max performance degradation in code generation quality,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+11884,[Bug] Claude Code making unauthorized modifications to unrelated files,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+11886,[Bug] Session token usage inconsistent with expected consumption,19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+11910,"[Bug] Excessive token usage with Claude Code Opus 4.6 - max 5x plan, 92% usage in 2.5 hours",3,Opus_46_Issues Context_Limit Token,3,#9B59B6
+11928,[Bug] Claude writes and pushes code while in plan-mode despite read-only constraints,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+11948,[Bug] Unexplained increase in token consumption across requests,19,TokenUsageIssues BillingIssues TimeoutIs,17,#F1C40F
+11967,[Bug] Claude modifies files during plan mode after auto-mode implementation,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+11979,[Bug] Unexpected high token usage increase since weekend,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+11991,"I appreciate the message, but I don't see a bug report or issue description to generate a GitHub issue title from. 
+
+Could you please provide the actual bug report or issue details that you'd like me to create a title for? Include information like:
+- What",17,"1 Bug Report Details
+2 Feature Request D",9,#795548
+12015,Windows: context window stuck at 200K instead of 1M for Opus 4.6,3,Opus_46_Issues Context_Limit Token,6,#9B59B6
+12089,"[Bug] Prompt caching not functioning correctly, causing excessive token consumption",14,ExcessiveTokenConsumption PromptCacheIss,8,#2196F3
+12090,[Bug] Unexpected high token usage spike on single prompt request,14,ExcessiveTokenConsumption PromptCacheIss,6,#2196F3
+12093,Excessive token consumption - 70% usage within one hour of normal use,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+12120,[BUG] API Error: Rate limit reached on Pro Plan despite 61% usage - VS Code Extension v2.1.87,24,RateLimitIssuesProSubscription,3,#4CAF50
+12125,[Bug] Excessive token consumption rate with two Claude Code CLI instances,12,memory_leak kernel_allocation api_error ,5,#2ECC71
+12153,Claude-in-Chrome browser extension not connecting to Claude Code CLI,10,Chrome_Connection_Issues,28,#E67E22
+12156,[Bug] Anthropic API Rate Limit Error Incorrectly Reported When Limits Available,2,AnthropicAPI_RateLimitError,34,#1ABC9C
+12159,[BUG] Git issue for VSCode Claude code extension,7,vscode_issues api_error extension_breaks,3,#E91E63
+12161,[Bug] Anthropic API Error: Rate limit exceeded on session start despite low usage,2,AnthropicAPI_RateLimitError,22,#1ABC9C
+12170,[Bug] Excessive token consumption on simple prompts,14,ExcessiveTokenConsumption PromptCacheIss,10,#2196F3
+12173,"[BUG] Claude Code freezes in VS Code (extension + integrated terminal) - Only native Mac Terminal works - Started March 29, 2026",7,vscode_issues api_error extension_breaks,1,#E91E63
+12175,[BUG] Claude Code keeps coming back to /skill after compacting memory,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+12186,"Claude in Chrome: CLI MCP client fails to connect despite working native messaging and socket (macOS, multi-profile)",10,Chrome_Connection_Issues,2,#E67E22
+12206,[BUG] Opus usage limit confusing,3,Opus_46_Issues Context_Limit Token,2,#9B59B6
+12231,"[BUG] Claude Code accepts prompt but produces no output, subsequent messages disappear",23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+12233,[BUG] API Error: Rate limit reached on Max plan with ~5% usage,2,AnthropicAPI_RateLimitError,17,#1ABC9C
+12264,[Bug] Rate limit error despite available quota on Pro plan,24,RateLimitIssuesProSubscription,1,#4CAF50
+12275,Claude Pro Subscription Shows API Limit Reached in Claude Code Despite No Usage,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+12283,"Claude Desktop 1.1.9493.0 crashes on launch -- no UI rendered, main.log not created, Windows 11 Home 25H2",20,Crash Launch Failure Hang Freeze Error,6,#607D8B
+12295,[Feedback] Claude Code working as intended,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+12300,[BUG] Bedrock Opus 4.6 incorrectly gets 200k context window instead of 1M,3,Opus_46_Issues Context_Limit Token,7,#9B59B6
+12322,API Rate limit errors started appearing with no changes to usage patterns,2,AnthropicAPI_RateLimitError,12,#1ABC9C
+12326,[BUG] Opus 4.6 at 1m context actually is Opus 4.5,3,Opus_46_Issues Context_Limit Token,9,#9B59B6
+12332,[Bug] Max plan rate limiting: 5-hour usage limit exhausted after 3-5 requests,11,rate_limit_issues usage_limits max_plan_,2,#FF5252
+12353,[Bug] Anthropic API Error: Rate Limit Exceeded,2,AnthropicAPI_RateLimitError,45,#1ABC9C
+12359,"Claude in Chrome: ""Browser extension is not connected"" from claude.ai web interface (MCP tools)",10,Chrome_Connection_Issues,22,#E67E22
+12367,[Bug] Anthropic API Error: Rate limit reached repeatedly,2,AnthropicAPI_RateLimitError,42,#1ABC9C
+12369,[BUG] Dispatch forces Opus 4.6 with no easy way to switch to Sonnet 4.6 (rapid limit/usage burn),6,Model_Issues Token_Consumption Downgrade,1,#FF9800
+12370,[BUG] Token usage spikes even on off-hours,19,TokenUsageIssues BillingIssues TimeoutIs,5,#F1C40F
+12373,"[BUG] CLI completely unusable - ""API Error: Rate limit reached"" on every command despite subscription usage not exhausted",2,AnthropicAPI_RateLimitError,2,#1ABC9C
+12384,"[BUG] API Error: 400 {""type"":""error"",""error""",15,InternalServerError500,10,#00BCD4
+12386,"Claude Code Desktop: New sessions fail with ""Setup script failed with exit code 1"" — existing sessions   unaffected",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+12403,Desktop App: Claude Code crashes with exit code 1 - SDK flag incompatibility (broken for 1+ week),23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+12414,"VS Code extension: OAuth session disconnects 1-4 times daily, requires re-login",8,auth-timeout oauth-expiry login-fail,1,#9C27B0
+12416,Session limit resets but immediately shows 100% used again,19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+12444,[Bug] Claude Code performance degradation,12,memory_leak kernel_allocation api_error ,18,#2ECC71
+12454,[BUG] 5 hour session more than 5 hours,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+12458,[BUG] Claude Code CLI Cannot Run,23,Bug Freeze NotWorking IgnoringInstructio,11,#E74C3C
+12496,"Claude Desktop fails to launch on macOS Tahoe 26.4 — ""Failed to get 'logs' path""",20,Crash Launch Failure Hang Freeze Error,2,#607D8B
+12523,Claude ignores CLAUDE.md instruction to read memory files at conversation start,23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+12541,[Bug] Excessive token consumption per message query,19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+12548,"[BUG] ""API Error: Rate limit reached"" Linux Claude Pro Subscription (SOLVED - Fixed)",2,AnthropicAPI_RateLimitError,18,#1ABC9C
+12557,[BUG] Claude Code Desktop Hanging Frequently,23,Bug Freeze NotWorking IgnoringInstructio,18,#E74C3C
+12578,[Bug] Excessive token consumption and slow performance,19,TokenUsageIssues BillingIssues TimeoutIs,32,#F1C40F
+12603,[Bug] Anthropic API Error: Rate limit reached despite available quota on Max plan,2,AnthropicAPI_RateLimitError,28,#1ABC9C
+12614,[Bug] Claude Code hangs with stagnant token usage until retry,23,Bug Freeze NotWorking IgnoringInstructio,9,#E74C3C
+12654,Claude in Chrome: 'Invalid token or user mismatch' persists after full reinstall of Desktop + Extension,10,Chrome_Connection_Issues,1,#E67E22
+12658,[BUG] Rate limit reached immediately on new Max subscription despite 1% usage,24,RateLimitIssuesProSubscription,2,#4CAF50
+12664,Claude Code in VS Code not asking before making changes.,7,vscode_issues api_error extension_breaks,1,#E91E63
+12668,[Bug] Claude Code charges additional usage despite available session and weekly quota capacity,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+12674,"Claude Code repeatedly ignores user instructions, wastes time on solvable problems, and fabricates data",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+12675,[Bug] Excessive token consumption in new sessions - context not clearing properly between conversations,19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+12690,[BUG] Claude Code Cannot Handle API Requests >5 Minutes Long,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+12714,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+12732,[Bug] Model switch from Opus to Sonnet via opusplan command not applied,6,Model_Issues Token_Consumption Downgrade,4,#FF9800
+12736,[Bug] Anthropic API Error: Overloaded (529 HTTP Status),9,Anthropic_API_Overload,26,#FF5722
+12743,[Bug] Anthropic API Error: Overloaded (529),9,Anthropic_API_Overload,32,#FF5722
+12748,[Bug] Anthropic API Error: Unspecified Error Details,4,Anthropic_API_Errors_500,76,#3498DB
+12750,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+12754,"API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""message"":""Internal server error""}",15,InternalServerError500,18,#00BCD4
+12758,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+12798,Desktop Code tab: bundled Claude Code binary crashes immediately (exit code 1),23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+12827,[Bug] Claude Code CLI performance degradation,12,memory_leak kernel_allocation api_error ,11,#2ECC71
+12873,Unable to connect with Chrome from Claude Code via MCP,10,Chrome_Connection_Issues,4,#E67E22
+12879,"I don't have enough context to generate a GitHub issue title from this message. This appears to be a fragment of a conversation about model contracts and interviews, but it doesn't describe a specific bug or feature request for Claude Code.
+
+Could you plea",17,"1 Bug Report Details
+2 Feature Request D",5,#795548
+12911,[Bug] Claude fails to complete planned tasks and skips instruction execution,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+12935,Claude Code tab in Desktop app (Windows) - no response to any messages,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+12960,Claude Desktop freezes periodically on macOS 26.4 (Tahoe),20,Crash Launch Failure Hang Freeze Error,1,#607D8B
+12966,[BUG] Massive issues on Claude,16,BUG_Claude INTERRUPTED_MESSAGE AN,10,#69F0AE
+13009,[Bug] Anthropic API Error: Rate limit reached despite available session/weekly limits,2,AnthropicAPI_RateLimitError,28,#1ABC9C
+13022,[BUG] https://github.com/anthropics/claude-code/issues/25745#issue-3941171961,17,"1 Bug Report Details
+2 Feature Request D",3,#795548
+13052,"This message appears to be a personal outreach/inquiry rather than a bug report or feature request for Claude Code. It doesn't describe a technical issue that needs a GitHub issue title.
+
+If you have a genuine bug or feature request for Claude Code, please",17,"1 Bug Report Details
+2 Feature Request D",6,#795548
+13101,[BUG] The 1M Context window is gone for Opus (shows 200k again like old times),3,Opus_46_Issues Context_Limit Token,16,#9B59B6
+13110,"[BUG] Claude Code edits my files without asking, despite ""Ask Before Edits"" being on",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+13129,[Bug] Rate Limiting: Token/Request Limits Exceeded Too Quickly During Normal Usage,19,TokenUsageIssues BillingIssues TimeoutIs,6,#F1C40F
+13143,[Bug] Anthropic API Error: Rate limit reached on specific commands despite available usage,2,AnthropicAPI_RateLimitError,21,#1ABC9C
+13227,[Bug] Excessive token usage and over-researching file context,19,TokenUsageIssues BillingIssues TimeoutIs,1,#F1C40F
+13254,[BUG] API Error : Rate Limit reached,2,AnthropicAPI_RateLimitError,30,#1ABC9C
+13261,[BUG] Claude Code hangs/freezes when opening an empty directory,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+13269,[BUG] Claude Code v2.1.83 breaks my terminal on exit,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+13295,[BUG] Claude Code not working in Team version,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+13298,[BUG] Claude Desktop failed to launch on macOS 26.3,20,Crash Launch Failure Hang Freeze Error,4,#607D8B
+13353,[BUG] Remote Control not enabled on Pro — 'not yet enabled for your account',1,RemoteControlIssues,9,#8BC34A
+13358,[BUG] Claude-in-Chrome MCP fails to connect in Claude Desktop (Cowork/Dispatch) without CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1,10,Chrome_Connection_Issues,2,#E67E22
+13393,[Bug] Code tab unresponsive to user input in Claude Desktop app,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+13396,[BUG] Claude Code duplicates CLAUDE.md entries in it's memory/<files>.md,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+13450,[Feature Request] Add ability to unarchive sessions in Claude Code Desktop,0,BUG Feature Request Remote Access Multi-,4,#E67E22
+13468,[BUG] API Error: rate limit reached,2,AnthropicAPI_RateLimitError,30,#1ABC9C
+13475,[BUG] Claude Code in Desktop app doesn't have a way to unarchive a session,0,BUG Feature Request Remote Access Multi-,5,#E67E22
+13502,[BUG] Claude Desktop failed to launch.,20,Crash Launch Failure Hang Freeze Error,4,#607D8B
+13511,"[BUG] Claude Desktop Code tab: process exits with code 1, no    response",23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+13555,⎿  API Error: 400,15,InternalServerError500,2,#00BCD4
+13598,[Bug] Anthropic API Error: Rate limit reached at 12% weekly usage,2,AnthropicAPI_RateLimitError,27,#1ABC9C
+13616,[BUG]  Error: Claude Code on Windows requires git-bash,21,GitBash_Issues_Windows,6,#E74C3C
+13663,[BUG] Claude Exits with Error Code 1,23,Bug Freeze NotWorking IgnoringInstructio,10,#E74C3C
+13678,[Bug] Remote Control feature disabled for authenticated Pro account despite previous access,1,RemoteControlIssues,5,#8BC34A
+13686,[BUG] Desktop App v1.1.7714 - Claude Code Binary 2.1.78 -,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+13723,"[BUG] After upgrading Claude Code to the latest version, some plugins from the original plugin marketplace are no longer supported due to format incompatibility.",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+13744,[BUG] Claude Desktop Code mode unresponsive on macOS - no response after sending message,18,Unresponsive_Mac_Desktop,3,#2ECC71
+13765,Claude in Chrome MCP: browser extension not connected from Claude Code CLI,10,Chrome_Connection_Issues,32,#E67E22
+13786,[Bug] Claude Code Desktop unresponsive to messages with stuck visualization panel,18,Unresponsive_Mac_Desktop,1,#2ECC71
+13831,Claude Code Desktop mode crashes: --resume-session-at flag not recognized by bundled binary 2.1.78,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+13832,[BUG]  API Error: Rate limit reached,2,AnthropicAPI_RateLimitError,30,#1ABC9C
+13834,[Bug] Claude Code agent not following user instructions consistently,23,Bug Freeze NotWorking IgnoringInstructio,7,#E74C3C
+13835,claude-in-chrome MCP server fails to connect to native host socket,10,Chrome_Connection_Issues,15,#E67E22
+13877,[BUG] API Error: Rate limit reached after downgrade from Max to Pro - Claude Code unusable,12,memory_leak kernel_allocation api_error ,4,#2ECC71
+13900,[Bug] Claude Code Agent Lacks Knowledge of Built-in Features and Commands,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+13914,[Bug] Anthropic API Error: Rate limit reached,2,AnthropicAPI_RateLimitError,41,#1ABC9C
+13923,[BUG] API Error: Rate limit reached despite 0% weekly usage and 2% session usage,2,AnthropicAPI_RateLimitError,6,#1ABC9C
+13943,Claude Desktop crashes on macOS Tahoe 26.3.1 — Crashpad mach_port_request_notification failure,20,Crash Launch Failure Hang Freeze Error,1,#607D8B
+13951,Feature: Inter-session communication between Claude Code instances,0,BUG Feature Request Remote Access Multi-,3,#E67E22
+13959,Claude Code process exited with code 1,23,Bug Freeze NotWorking IgnoringInstructio,15,#E74C3C
+13966,[BUG]  - 2.1.81 (Claude Code) - Access to file a from .claudeignore without being asked explicitly.,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+13978,"Claude in Chrome fails with ""Browser extension is not connected.""",10,Chrome_Connection_Issues,29,#E67E22
+14013,[Bug] Claude Code CLI freezes with no token streaming during processing,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+14026,"BUG] Claude Desktop app - ""Claude Code process exited with code 1"" on every message",23,Bug Freeze NotWorking IgnoringInstructio,18,#E74C3C
+14031,[BUG] Claude Code Unresponsive in Mac OS app,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+14032,Chrome extension: 'Browser extension is not connected' despite native host running,10,Chrome_Connection_Issues,8,#E67E22
+14036,[BUG] Claude fails to launch on Windows 11 Home,20,Crash Launch Failure Hang Freeze Error,2,#607D8B
+14040,Claude Code ignores memory/CLAUDE.md instructions for mandatory post-change steps (version bump + tag),23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+14057,[Bug] Anthropic API Error: Rate limit exceeded with low usage quota,2,AnthropicAPI_RateLimitError,31,#1ABC9C
+14069,Model doesn't consistently follow CLAUDE.md instructions without user prompting,5,IgnoresInstructions,2,#F1C40F
+14072,[BUG] Bash stdout not returned in VS Code Extension (Windows / Git Bash),21,GitBash_Issues_Windows,2,#E74C3C
+14166,Claude in Chrome: MCP bridge fails to connect even with correct native host and socket (Desktop coexistence),10,Chrome_Connection_Issues,12,#E67E22
+14186,"[BUG] Claude Code Desktop lost its 1m context for Opus 4.6, while CLI maintains it",12,memory_leak kernel_allocation api_error ,1,#2ECC71
+14216,"Opus 4.6 1M context window disappeared — was working, now gone",3,Opus_46_Issues Context_Limit Token,3,#9B59B6
+14222,[BUG]  Open the ticket - https://github.com/anthropics/claude-code/issues/11380,17,"1 Bug Report Details
+2 Feature Request D",1,#795548
+14230,claude-in-chrome: Browser extension not connected — MCP server never connects to native host socket (Linux),10,Chrome_Connection_Issues,26,#E67E22
+14232,Can't connect Claude Code in VS Code to Claude chrome extension,10,Chrome_Connection_Issues,11,#E67E22
+14262,"[BUG] Claude Code CLI/VS Code — repeated connection timeouts followed by OAuth token expiry, forces re-login every few minutes",8,auth-timeout oauth-expiry login-fail,4,#9C27B0
+14275,"[BUG] Claude Code Desktop App - Process exits with code 1 after auto-update (March 20, 2026)",23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+14277,[BUG] After Claude Update (March 19) The issue of Claude Code not answering,23,Bug Freeze NotWorking IgnoringInstructio,21,#E74C3C
+14282,"[BUG] Claude Desktop v1.1.7714 fails to launch — ""Failed to get 'documents' path"" on Windows 11",20,Crash Launch Failure Hang Freeze Error,1,#607D8B
+14308,[BUG] claude remote-control,1,RemoteControlIssues,4,#8BC34A
+14311,[BUG] Claude Code Desktop SSH remote,1,RemoteControlIssues,1,#8BC34A
+14365,[Bug] Anthropic API Error: Overloaded Error During Request,9,Anthropic_API_Overload,36,#FF5722
+14366,Claude in Chrome extension not connecting to Claude Code,10,Chrome_Connection_Issues,22,#E67E22
+14372,[BUG] Claude code Doesn't work,23,Bug Freeze NotWorking IgnoringInstructio,50,#E74C3C
+14400,[BUG] Claude Code repeatedly violates explicit instructions,23,Bug Freeze NotWorking IgnoringInstructio,31,#E74C3C
+14406,claude-in-chrome MCP server never connects to native host socket (macOS),10,Chrome_Connection_Issues,17,#E67E22
+14411,"[BUG] Claude committed  code without asking for permission, despite explicit instructions in CLAUDE.md to require approval before committing.",23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+14462,[BUG] Claude Code CLI - Rate limit error persisting after March 18-19 incident,12,memory_leak kernel_allocation api_error ,4,#2ECC71
+14465,"[Bug] Claude Code causes system freeze on Ubuntu, requires hard restart",23,Bug Freeze NotWorking IgnoringInstructio,6,#E74C3C
+14466,"[BUG] ""Interrupted. What do you want Claude to do instead"" this message is appearing almost on all actions",16,BUG_Claude INTERRUPTED_MESSAGE AN,1,#69F0AE
+14467,claude-in-chrome extension fails to connect — 'Browser extension is not connected',10,Chrome_Connection_Issues,39,#E67E22
+14469,[Bug] Remote Control: Messages not transmitted to Claude Code CLI,1,RemoteControlIssues,2,#8BC34A
+14479,"[BUG] Claude Code VS Extension - Claude Code process exited with code 3, Bun",23,Bug Freeze NotWorking IgnoringInstructio,7,#E74C3C
+14545,[Bug] Agent ignores CLAUDE.md instructions and fails to execute skills consistently,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+14554,claude-in-chrome: Browser extension never initiates native messaging connection,10,Chrome_Connection_Issues,8,#E67E22
+14560,[Bug] Excessive memory usage - Claude Code consuming 20GB+ RAM,12,memory_leak kernel_allocation api_error ,4,#2ECC71
+14569,[BUG] Claude code asking for permission to edit its own settings when bypass permissions is enabled,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+14576,[Bug] Anthropic API Error: Overloaded (HTTP 529),9,Anthropic_API_Overload,26,#FF5722
+14578,[Bug] Anthropic API Error: Unable to process request,4,Anthropic_API_Errors_500,56,#3498DB
+14579,[Bug] Anthropic API Error: Service Overloaded - Requests Timing Out,9,Anthropic_API_Overload,23,#FF5722
+14582,[Bug] Anthropic API Error: Overloaded error causes excessive retry attempts,9,Anthropic_API_Overload,18,#FF5722
+14583,[Bug] Anthropic API Error: Model Overloaded,9,Anthropic_API_Overload,20,#FF5722
+14584,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+14585,[Bug] Anthropic API Error: 529 Service Unavailable,9,Anthropic_API_Overload,9,#FF5722
+14588,[BUG] Claude code stopped working,23,Bug Freeze NotWorking IgnoringInstructio,64,#E74C3C
+14622,Claude Code GitHub App not responding to @claude review on PRs,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+14623,Claude GitHub App not responding to @claude review on PRs,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+14629,[Bug] Anthropic API Error: 529 Service Unavailable,9,Anthropic_API_Overload,9,#FF5722
+14630,[Bug] Anthropic API Error: Overloaded - No Recovery on Retry or Session Resume,9,Anthropic_API_Overload,2,#FF5722
+14648,[Bug] Model alias `opusplan` uses Sonnet instead of Opus in plan mode,6,Model_Issues Token_Consumption Downgrade,4,#FF9800
+14654,"Session becomes permanently unusable after rate limit error, even though limit is available",19,TokenUsageIssues BillingIssues TimeoutIs,2,#F1C40F
+14702,[Bug] Anthropic API Error: Recurring 500 Internal Server Errors,4,Anthropic_API_Errors_500,58,#3498DB
+14704,[Bug] Anthropic API Error: HTTP 500 and 529 timeout during sessions,4,Anthropic_API_Errors_500,8,#3498DB
+14705,Opus 4.6 on Bedrock excluded from 1M context window,3,Opus_46_Issues Context_Limit Token,2,#9B59B6
+14708,[Bug] Anthropic API Error: Overloaded,9,Anthropic_API_Overload,32,#FF5722
+14714,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14717,[Bug] Anthropic API Error: Internal Server Error and Overloaded responses during task execution,9,Anthropic_API_Overload,19,#FF5722
+14721,[Bug] Anthropic API Error: Internal Server Error (500) and Overloaded Error (529),4,Anthropic_API_Errors_500,84,#3498DB
+14723,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14724,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14725,"API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""message"":""Internal server error""},""request_id"":""req_011CZ9GFw9579zj7kCY3hHm9""}",15,InternalServerError500,16,#00BCD4
+14727,"[BUG] API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""message"":""Internal server      error""},""request_id"":""req_011CZ9G2x1o12g2XijszrB96""}",15,InternalServerError500,25,#00BCD4
+14728,[Bug] Anthropic API Error: Internal Server Error with Claude Opus model,22,"Anthropic_API_Error
+
+Issues
+- Feature",2,#1ABC9C
+14729,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14730,[Bug] Anthropic API Error: Internal Server Error (500) - Mass Outage,4,Anthropic_API_Errors_500,57,#3498DB
+14732,[Bug] Anthropic API Error: Overloaded Error (529) during Claude Code operations,9,Anthropic_API_Overload,4,#FF5722
+14733,[Bug] Claude Code CLI fails to initialize or execute,23,Bug Freeze NotWorking IgnoringInstructio,8,#E74C3C
+14737,"[BUG] in Claude Code sesstion, API Error: 500 {""type"":""error"",""error"":{""type"":""api_error"",""message"":""Internal server error""},""request_id"":""req_011CZ9DWrAFPPiMFaPWYkvph""}",15,InternalServerError500,5,#00BCD4
+14738,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14739,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14740,[Bug] Anthropic API Error: Persistent 500 Internal Server Error on all requests,4,Anthropic_API_Errors_500,60,#3498DB
+14741,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14742,[BUG] API Error: 500 Internal Server Errror,4,Anthropic_API_Errors_500,65,#3498DB
+14743,[Bug] Claude 3.5 Opus 1M context window not functioning,3,Opus_46_Issues Context_Limit Token,3,#9B59B6
+14744,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14745,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14746,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14747,[Bug] Anthropic API Error: HTTP 500 Internal Server Error,4,Anthropic_API_Errors_500,61,#3498DB
+14748,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14749,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14750,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14751,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14752,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+14766,[Bug] Claude fails to generate responses,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+14770,[BUG] **Bug: VS Code Extension returns 'API Error: Rate limit reached' on every request despite active Pro subscription**,24,RateLimitIssuesProSubscription,3,#4CAF50
+14792,"[BUG] Claude Code v2.1.77 crashes with ""Illegal instruction"" on RHEL 8 (x86_64)",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+14798,[BUG] Claude Code for VS Code 2.1.73,7,vscode_issues api_error extension_breaks,7,#E91E63
+14816,[BUG] claude remote control not working on Pro plan,1,RemoteControlIssues,5,#8BC34A
+14842,claude-in-chrome MCP never connects to browser-bridge socket (v2.1.77),10,Chrome_Connection_Issues,15,#E67E22
+14866,"[BUG] Claude for Chrome extension fails to connect, even tho a connection seems to be established",10,Chrome_Connection_Issues,33,#E67E22
+14914,Bug: Claude edits code files while Plan Mode is active despite system instructions,23,Bug Freeze NotWorking IgnoringInstructio,8,#E74C3C
+14915,Context window shows 200k instead of 1M for Opus 4.6 on Max plan,3,Opus_46_Issues Context_Limit Token,14,#9B59B6
+14922,[Bug] Anthropic API Error: Rate limit exceeded on custom command execution,2,AnthropicAPI_RateLimitError,2,#1ABC9C
+14945,"Chrome integration: ""Browser extension is not connected"" on Linux despite healthy native host and socket",10,Chrome_Connection_Issues,7,#E67E22
+14965,[Bug] Claude fails to follow instructions and executes dangerous operations without confirmation,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+14980,Chrome extension not connecting to Claude Code CLI with --chrome flag,10,Chrome_Connection_Issues,15,#E67E22
+14990,"I'm ready to help generate GitHub issue titles for Claude Code bug reports. Please provide the bug report details and I'll create a concise, technical issue title following the guidelines you've outlined.",17,"1 Bug Report Details
+2 Feature Request D",7,#795548
+14999,[Bug] Claude Code ignoring instructions from memory/Claude.md files and hallucinating solutions,23,Bug Freeze NotWorking IgnoringInstructio,22,#E74C3C
+15022,Claude in Chrome extension never initiates native messaging connection,10,Chrome_Connection_Issues,4,#E67E22
+15025,Chrome MCP tools report 'not connected' despite working socket,10,Chrome_Connection_Issues,2,#E67E22
+15035,"[Bug] Claude Code ignores explicit instructions to read source code, proceeds with guessing instead",23,Bug Freeze NotWorking IgnoringInstructio,8,#E74C3C
+15056,[Bug] Excessive token usage on simple messages causing premature rate limit consumption,19,TokenUsageIssues BillingIssues TimeoutIs,6,#F1C40F
+15078,[Bug] Claude Code generating responses to unrelated prompts,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+15089,"[BUG] Claude Code gives completely unrelated hallucinated responses to simple prompts (e.g., ""1+1"" returns ""4+5=9"")",23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+15098,[BUG] VS Code extension resets subscriptionType to null for Team accounts → “API Error: Rate limit reached”,24,RateLimitIssuesProSubscription,1,#4CAF50
+15122,[BUG] Claudecode able to to bypass .claudeignore,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+15128,"Claude-in-Chrome: not connected despite native host running (macOS, CC 2.1.76, ext 1.0.62)",10,Chrome_Connection_Issues,8,#E67E22
+15143,Auto-compaction triggers at 41% actual context usage on 1M Opus 4.6 sessions (token estimation over-counting),3,Opus_46_Issues Context_Limit Token,5,#9B59B6
+15221,"Claude in Chrome: extension never calls connectNative despite correct setup (macOS, v2.1.76, ext v1.0.61)",10,Chrome_Connection_Issues,5,#E67E22
+15233,Claude in Chrome: CLI never connects to native host socket (macOS),10,Chrome_Connection_Issues,5,#E67E22
+15239,[Bug] Anthropic API Error: Rate limit reached on skill invocation with fresh context,2,AnthropicAPI_RateLimitError,11,#1ABC9C
+15254,[BUG] API Rate limit even if I just started the session with available quota,19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+15260,[BUG] Claude code VS Code extension error in MacOS,7,vscode_issues api_error extension_breaks,6,#E91E63
+15306,Claude-in-Chrome: connection fails when Claude Desktop installed despite disabling Desktop's native host (macOS),10,Chrome_Connection_Issues,5,#E67E22
+15370,"[BUG] Claude Desktop: ""failed to launch"" error on startup (no window renders, clean install, Windows 11)",20,Crash Launch Failure Hang Freeze Error,4,#607D8B
+15374,[BUG] API Error: Rate limit reached on first message despite Claude Pro subscription and zero prior usage,24,RateLimitIssuesProSubscription,5,#4CAF50
+15390,[Bug] Excessive token consumption for single file modifications,19,TokenUsageIssues BillingIssues TimeoutIs,3,#F1C40F
+15410,[BUG] CRAZYE MEMORY LEAK. Can't use Claude Code. --update doesn't work as well,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+15457,[Bug] Anthropic API Error: Rate limit reached despite available quota,2,AnthropicAPI_RateLimitError,28,#1ABC9C
+15468,[BUG] The extension 'Claude Code for VS Code' shows a completely blank page.,7,vscode_issues api_error extension_breaks,3,#E91E63
+15500,[BUG] Claude Code constantly failing on applying plans,23,Bug Freeze NotWorking IgnoringInstructio,10,#E74C3C
+15579,"[BUG] After accepting a plan, Claude asks what to change instead of starting implementation",23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+15580,[BUG] Regression in Claude Code Refactor / Analysis Behavior,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+15595,OOM kill: Claude Code memory grows to 10-13 GB after just 3 exchanges,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+15626,Claude CLI opens empty VSCode windows when launched from VSCode integrated terminal,7,vscode_issues api_error extension_breaks,7,#E91E63
+15631,[Bug] Anthropic API Error: HTTP 500 Internal Server Error,4,Anthropic_API_Errors_500,61,#3498DB
+15633,[Bug] Claude Code hangs and requires session restart,23,Bug Freeze NotWorking IgnoringInstructio,26,#E74C3C
+15648,[Feature Request] Add ability to open Claude Code CLI sessions in Claude Code Desktop,0,BUG Feature Request Remote Access Multi-,1,#E67E22
+15687,[Bug] Claude Code Review process hangs indefinitely without timeout,23,Bug Freeze NotWorking IgnoringInstructio,3,#E74C3C
+15725,[BUG] Claude Code silently exits (code 0) when git is not installed,21,GitBash_Issues_Windows,3,#E74C3C
+15748,Claude Code crashes with OOM (2.6GB+) — no memory self-monitoring or graceful degradation,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+15751,"[BUG] /remote-control or /rc do not appear inside my claude code session, on latest version",1,RemoteControlIssues,2,#8BC34A
+15773,[Bug] Anthropic API Error: Rate limit persists after logout/login and cache clear,2,AnthropicAPI_RateLimitError,13,#1ABC9C
+15780,[BUG] Claude crashed,16,BUG_Claude INTERRUPTED_MESSAGE AN,5,#69F0AE
+15792,CRITICAL: Claude Code regression — model now consistently fails basic tasks and hallucinates in code analysis,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+15796,[BUG] Claude Code Session Recording Failure & Massive Token Usage Surge,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+15801,"BUG] Claude Code hangs on launch — OAuth authentication page loads indefinitely (Pro subscription, macOS)",8,auth-timeout oauth-expiry login-fail,1,#9C27B0
+15812,[Bug] API Error: Rate limit reached despite usage within limits,2,AnthropicAPI_RateLimitError,31,#1ABC9C
+15816,[BUG] VS Code Extension ignores CLAUDE_CODE_GIT_BASH_PATH environment variable on Windows,21,GitBash_Issues_Windows,3,#E74C3C
+15857,Claude Code ignores explicit 'DO NOT implement code changes' instruction,23,Bug Freeze NotWorking IgnoringInstructio,5,#E74C3C
+15893,No notification when Opus usage exhausted and model falls back to Sonnet,6,Model_Issues Token_Consumption Downgrade,2,#FF9800
+15936,Opus 4.6 on Claude Code,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+15984,"Claude GitHub App: Code Review always reports 0 issues, @claude mentions get no response",12,memory_leak kernel_allocation api_error ,2,#2ECC71
+15988,[Bug] Memory Leak in Claude Code CLI,12,memory_leak kernel_allocation api_error ,5,#2ECC71
+15993,[BUG] Claude Code App hangs,23,Bug Freeze NotWorking IgnoringInstructio,28,#E74C3C
+16000,"[BUG] [BUG] Claude in Chrome extension fails to connect - ""account mismatch"" error despite same account on both extension and Claude Desktop",10,Chrome_Connection_Issues,6,#E67E22
+16009,"[BUG] I am experiencing an unusual and persistent issue where the token usage limit for Claude Code is not resetting as expected, leading to a lockout that has lasted over 24 hours. It is now 72 hours.......",12,memory_leak kernel_allocation api_error ,3,#2ECC71
+16020,[BUG] UsageMemore,13,BUG_USAGE_LIMITS,2,#F06292
+16030,[Bug] Anthropic API Error: Rate limit reached despite low usage,2,AnthropicAPI_RateLimitError,43,#1ABC9C
+16091,[Bug] Claude Code experiencing severe performance degradation,12,memory_leak kernel_allocation api_error ,17,#2ECC71
+16094,"[BUG] ""Claude Desktop Failed to Launch: We are so sorry, Claude Desktop failed to launch. Please check for updates and try again. If the issue persists, contact support."" Tahoe 26.3.1",20,Crash Launch Failure Hang Freeze Error,3,#607D8B
+16102,[BUG] Claude code with Local file,23,Bug Freeze NotWorking IgnoringInstructio,9,#E74C3C
+16110,[BUG] after rate limit reset it does not automatically continue,2,AnthropicAPI_RateLimitError,1,#1ABC9C
+16114,[BUG] API Error: 500,15,InternalServerError500,21,#00BCD4
+16119,[Bug] Anthropic API Error: Rate limit reached,2,AnthropicAPI_RateLimitError,41,#1ABC9C
+16151,Claude in Chrome: extension not connected on Linux despite working native host (Profile 4 → Default migration),10,Chrome_Connection_Issues,7,#E67E22
+16154,"[BUG] Claude Code doesn't verify its own changes end-to-end, causing repeated runtime bugs",23,Bug Freeze NotWorking IgnoringInstructio,7,#E74C3C
+16155,[Bug] Missing Claude Code Analytics,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+16167,[Bug] Claude Code intermittently fails to execute tasks correctly despite valid instructions,23,Bug Freeze NotWorking IgnoringInstructio,13,#E74C3C
+16208,opusplan: system prompt reports sonnet-4-6 in plan mode instead of opus-4-6,6,Model_Issues Token_Consumption Downgrade,4,#FF9800
+16247,[Bug] Anthropic API Error: Rate limit reached,2,AnthropicAPI_RateLimitError,41,#1ABC9C
+16251,[Bug] Memory leak: Claude Code consumes excessive RAM (>6GB) on task execution,12,memory_leak kernel_allocation api_error ,5,#2ECC71
+16324,[BUG] Claude Code login times out after successful OAuth browser flow,8,auth-timeout oauth-expiry login-fail,6,#9C27B0
+16361,[BUG] CLI cannot connect to browser extension,10,Chrome_Connection_Issues,1,#E67E22
+16434,[BUG] API Error: Rate Limit when using claude code (vscode) on max plan,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+16445,"[BUG]  Claude in Chrome: ""Browser extension is not connected"" on Windows — `tengu_chrome_auto_enable` forced to `false` by server",10,Chrome_Connection_Issues,4,#E67E22
+16482,Chrome integration: MCP server does not connect to browser bridge socket,10,Chrome_Connection_Issues,8,#E67E22
+16514,[BUG] Claude in Chrome MCP fails to connect to Chromium Browser — always launches Google Chrome instead,10,Chrome_Connection_Issues,1,#E67E22
+16527,[BUG] Claude vscode extension does not work on x86 linux after v2.1.72 update,7,vscode_issues api_error extension_breaks,4,#E91E63
+16528,[BUG] Claude,16,BUG_Claude INTERRUPTED_MESSAGE AN,4,#69F0AE
+16575,"Erroneous ""API Error: Rate limit reached"" Shut me out of Claude Code",2,AnthropicAPI_RateLimitError,17,#1ABC9C
+16598,VS Code: 3 blank windows open when launching Claude from VS Code terminal,7,vscode_issues api_error extension_breaks,8,#E91E63
+16614,"Claude-in-Chrome: MCP server ignores working native sockets, fails on WebSocket bridge auth",10,Chrome_Connection_Issues,10,#E67E22
+16631,[BUG] Claude code is injecting messages that aren't from me into the terminal and acting on them as if I reported them.,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+16751,[Bug] Claude Code does not respond when entering /plan mode,23,Bug Freeze NotWorking IgnoringInstructio,11,#E74C3C
+16794,[BUG] Claude Code process crashes with exit code 1 after reading a small PDF created with lualatex,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+16803,[Bug] Claude Code fails to complete assigned tasks,23,Bug Freeze NotWorking IgnoringInstructio,6,#E74C3C
+16835,[Bug] Degradation in Claude model output quality and reasoning capability,12,memory_leak kernel_allocation api_error ,1,#2ECC71
+16845,[Bug] Claude Code fails on simple problems inconsistently,23,Bug Freeze NotWorking IgnoringInstructio,27,#E74C3C
+16850,"Claude Code hangs on ""thinking"" in new sessions — never produces output",23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+16855,[Bug] /remote-control skill unavailable in Claude Code v2.1.71,1,RemoteControlIssues,3,#8BC34A
+16864,[BUG] Claude Code,23,Bug Freeze NotWorking IgnoringInstructio,21,#E74C3C
+16873,Chrome extension not working,10,Chrome_Connection_Issues,1,#E67E22
+16910,[BUG] Claude code killed,23,Bug Freeze NotWorking IgnoringInstructio,9,#E74C3C
+16947,Chrome integration: Claude Code never connects to native bridge socket (macOS),10,Chrome_Connection_Issues,4,#E67E22
+16959,[BUG] Claude Code hangs when accessing large session files (>50MB) #21022,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+16975,[Bug] Claude Code exits unexpectedly without error message,23,Bug Freeze NotWorking IgnoringInstructio,31,#E74C3C
+16990,"I appreciate the detailed feedback, but I need to clarify my role here. I'm Claude Code's issue title generator - I'm designed to convert bug reports into concise GitHub issue titles.
+
+The text you've provided appears to be a performance review or evaluati",17,"1 Bug Report Details
+2 Feature Request D",4,#795548
+16997,[BUG] API Error: Rate limit reached + Silent API Credit Billing Despite Active Claude Max Subscription (VS Code Extension),24,RateLimitIssuesProSubscription,2,#4CAF50
+17021,[BUG] Claude in Chrome MCP server never activates in Claude Desktop,10,Chrome_Connection_Issues,2,#E67E22
+17024,[Bug] Anthropic API Rate Limit Error Despite Available Quota,2,AnthropicAPI_RateLimitError,25,#1ABC9C
+17025,Claude code drifts from plan mode,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+17029,Claude in Chrome: MCP server shows connected but extension reports 'not connected',10,Chrome_Connection_Issues,16,#E67E22
+17063,[BUG] Cowork fails to connect to Claude in Chrome extension,10,Chrome_Connection_Issues,4,#E67E22
+17064,"[BUG] Claude in Chrome extension fails to connect to Cowork on macOS — was working ~2 weeks ago, now persistently broken",10,Chrome_Connection_Issues,4,#E67E22
+17068,"[BUG] Claude Desktop hangs, MacOS 26.3, M3 Chip.  Latest download installed.  Still hangs",20,Crash Launch Failure Hang Freeze Error,1,#607D8B
+17076,[BUG] Claude asks approval before actually showing the plan it created,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+17083,[Bug] Long-running sessions cause excessive token consumption and context window exhaustion,19,TokenUsageIssues BillingIssues TimeoutIs,4,#F1C40F
+17085,[BUG] claude code crashed in version 2.1.70 bun error,23,Bug Freeze NotWorking IgnoringInstructio,7,#E74C3C
+17094,Claude Desktop on Mac crashing on opening.,20,Crash Launch Failure Hang Freeze Error,2,#607D8B
+17099,[BUG] Claude Code Plugins Error,23,Bug Freeze NotWorking IgnoringInstructio,8,#E74C3C
+17112,[Bug] Claude Code generates misleading or false information,23,Bug Freeze NotWorking IgnoringInstructio,15,#E74C3C
+17119,Chrome extension not connecting to Claude Code despite correct setup,10,Chrome_Connection_Issues,29,#E67E22
+17144,Claude-in-Chrome: Extension not connecting despite valid native host and socket,10,Chrome_Connection_Issues,19,#E67E22
+17164,[BUG] Issue logging into Claude Code in VS Code with Pro subscription,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+17226,[BUG]  Remote Control not available on Pro plan,1,RemoteControlIssues,8,#8BC34A
+17249,"Claude in Chrome: ""Browser extension is not connected"" despite correct native host setup (macOS 26 + Chrome 145)",10,Chrome_Connection_Issues,22,#E67E22
+17292,"[BUG] Claude code, in browser and desktop is not working",23,Bug Freeze NotWorking IgnoringInstructio,6,#E74C3C
+17312,"claude-in-chrome MCP: ""Browser extension is not connected"" despite native host running correctly via CLI binary",10,Chrome_Connection_Issues,11,#E67E22
+17318,Remote access / web interface for Claude Code sessions,0,BUG Feature Request Remote Access Multi-,2,#E67E22
+17331,[BUG] Claude Code process exits with code 1 in VS code repeatedly,23,Bug Freeze NotWorking IgnoringInstructio,12,#E74C3C
+17391,[Bug] Claude Code hangs with no token consumption or activity progress,23,Bug Freeze NotWorking IgnoringInstructio,14,#E74C3C
+17493,I need more information to generate a GitHub issue title. Please provide the bug report or feature request details that you'd like me to create a title for.,17,"1 Bug Report Details
+2 Feature Request D",8,#795548
+17588,[Bug] Anthropic API Error: Rate limit reached despite Max plan subscription,2,AnthropicAPI_RateLimitError,19,#1ABC9C
+17654,[BUG] Claude Code forgets persistent memory instructions after context compaction,12,memory_leak kernel_allocation api_error ,2,#2ECC71
+17671,[FEATURE]  https://github.com/anthropics/claude-code/issues/11045#issuecomment-3981143436,17,"1 Bug Report Details
+2 Feature Request D",1,#795548
+17689,[BUG] usage limit / session management bug in Claude Code.,12,memory_leak kernel_allocation api_error ,3,#2ECC71
+17706,[BUG] claude code in terminal returning a Bun exception,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+17759,[Bug] Claude Code does not display proposed plan/changes before implementation,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+17766,Running claude from VS Code integrated terminal opens 3 empty VS Code windows,7,vscode_issues api_error extension_breaks,9,#E91E63
+17802,[Bug] Claude Code ignores instructions and hallucinates implementation details without validating logic gaps,23,Bug Freeze NotWorking IgnoringInstructio,1,#E74C3C
+17803,VS Code extension opens 3 new windows when running claude from integrated terminal,7,vscode_issues api_error extension_breaks,8,#E91E63
+17818,[BUG] Windows: Claude Code extension v2.1.69 crashes with exit code 3221225781 (Access Violation),23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+17841,Claude in Chrome: MCP bridge doesn't reconnect when Chrome restarts,10,Chrome_Connection_Issues,2,#E67E22
+17877,[Bug] Windows: 3 blank VS Code windows spawn on every Claude Code session start (terminal & extension),7,vscode_issues api_error extension_breaks,2,#E91E63
+17879,[BUG]  Running claude code in VS Code integrated terminal spawns 3 blank VS Code windows on Windows,7,vscode_issues api_error extension_breaks,10,#E91E63
+17894,"[Bug] Claude in Chrome MCP connection fails - ""Browser extension is not connected""",10,Chrome_Connection_Issues,29,#E67E22
+17907,[Bug] Remote Control unavailable for Pro subscription account,1,RemoteControlIssues,7,#8BC34A
+17911,[BUG] VS Code extension fails to detect Git Bash on Windows despite CLAUDE_CODE_GIT_BASH_PATH being set,21,GitBash_Issues_Windows,4,#E74C3C
+17920,"[BUG] I am instantly hitting an ""API Error: Rate Limit Reached"" when I start a new conversation with Claude Code. This occurred after enabling ""Fast Mode"" with Opus.",3,Opus_46_Issues Context_Limit Token,1,#9B59B6
+17922,CLI started in VS Code integrated terminal opens 3 blank VS Code windows (Windows),7,vscode_issues api_error extension_breaks,3,#E91E63
+17940,[Bug] Anthropic API Error: Unspecified API Error,4,Anthropic_API_Errors_500,74,#3498DB
+17942,[Bug] Anthropic API Error: 400 Bad Request when parsing JSON data from websites,4,Anthropic_API_Errors_500,1,#3498DB
+17944,[BUG] Getting error 400.,15,InternalServerError500,3,#00BCD4
+17949,Remote Control not available for Pro plan account,1,RemoteControlIssues,3,#8BC34A
+17953,[BUG] Error: Claude Code process exited with code 3221225781 View output logs · Troubleshooting resources,23,Bug Freeze NotWorking IgnoringInstructio,11,#E74C3C
+17958,"[BUG] Claude Code stays frozen when loading, and no errors are printed when using --verbose.",23,Bug Freeze NotWorking IgnoringInstructio,4,#E74C3C
+17989,Starting Claude Code in VSCode integrated terminal opens 3 new VSCode windows,7,vscode_issues api_error extension_breaks,9,#E91E63
+18014,[Bug] Claude Code spawns multiple VS Code windows on first run,7,vscode_issues api_error extension_breaks,4,#E91E63
+18024,[BUG] Windows: CLI spawns 3 empty VSCode windows on startup — root cause is `code` CLI calls from integrated terminal,7,vscode_issues api_error extension_breaks,2,#E91E63
+18030,[BUG] Error: Claude Code process exited with code 3221225781,23,Bug Freeze NotWorking IgnoringInstructio,23,#E74C3C
+18039,[BUG] Claude Code silently exits unexpectedly with no error,23,Bug Freeze NotWorking IgnoringInstructio,27,#E74C3C
+18095,[BUG] Running `claude` CLI from VS Code terminal opens 3 new VS Code windows,7,vscode_issues api_error extension_breaks,9,#E91E63
+18098,[BUG] Claude launches multiple VScode windows while starting from VScode terminal,7,vscode_issues api_error extension_breaks,9,#E91E63
+18119,[BUG] v2.1.68 (updated 2026-03-04)   opens 3 blank VS Code windows when claude is started in the integrated terminal.,7,vscode_issues api_error extension_breaks,9,#E91E63
+18141,"UNWARRANTED ""API Error: Rate limit reached"" WARNING",2,AnthropicAPI_RateLimitError,16,#1ABC9C
+18168,"[BUG] USAGE BUG, opus drains sonnet usage URGENT FIX NEEDED",6,Model_Issues Token_Consumption Downgrade,5,#FF9800
+18202,"[BUG] ""Failed to load session"" on Claude Code in macOS desktop app",0,BUG Feature Request Remote Access Multi-,3,#E67E22
+18219,"Claude-in-Chrome: extension not connected despite working native host socket (Linux, custom Chrome profile)",10,Chrome_Connection_Issues,15,#E67E22
+18230,[BUG] IN VS CODE CLAUDE EXTENSION GETTING API ERROR,7,vscode_issues api_error extension_breaks,5,#E91E63
+18432,[BUG] Claude Code Remote not connecting,1,RemoteControlIssues,3,#8BC34A
+18434,"Claude Code causes 49GB invisible kernel memory allocation, triggers OOM killer on 128GB system",12,memory_leak kernel_allocation api_error ,2,#2ECC71
+18470,[Bug] Remote control functionality unavailable with Claude Pro account,1,RemoteControlIssues,7,#8BC34A
+18482,[Bug] Anthropic API Error: Rate limit reached on claude-opus-4-6,2,AnthropicAPI_RateLimitError,9,#1ABC9C
+18524,[Bug] Anthropic API Error: Internal Server Error (500),4,Anthropic_API_Errors_500,68,#3498DB
+18528,Silent model downgrade from Opus to Sonnet after re-authentication (Max subscriber),6,Model_Issues Token_Consumption Downgrade,3,#FF9800
+18531,Silent model downgrade from Opus to Sonnet after re-authentication (Max subscriber),6,Model_Issues Token_Consumption Downgrade,3,#FF9800
+18606,[BUG] Can't see usage,13,BUG_USAGE_LIMITS,1,#F06292
+18620,[BUG] Claude code vscode extension breaks search,7,vscode_issues api_error extension_breaks,3,#E91E63
+18641,"Claude Desktop: Chrome Extension MCP bridge disconnects repeatedly, prompts for re-authentication",10,Chrome_Connection_Issues,1,#E67E22
+18662,[Bug] Anthropic API Error: Response exceeds 32000 output token maximum,2,AnthropicAPI_RateLimitError,1,#1ABC9C
+18670,[BUG] Remote Control feature advertised for Pro plan subscribers is inaccessible / not working,1,RemoteControlIssues,2,#8BC34A
+18671,[Bug] Pro account can't access /remote-control,1,RemoteControlIssues,4,#8BC34A
+18705,[BUG] Claude Code kicks in /extra-usage without asking for permission,23,Bug Freeze NotWorking IgnoringInstructio,9,#E74C3C
+18739,Claude in Chrome MCP never connects despite native host running correctly,10,Chrome_Connection_Issues,15,#E67E22
+18744,[Bug] Prompt caching consuming usage limits faster than expected,14,ExcessiveTokenConsumption PromptCacheIss,4,#2196F3
+18771,[BUG]  Claude,16,BUG_Claude INTERRUPTED_MESSAGE AN,4,#69F0AE
+18808,[Bug] Remote Control feature unavailable on Pro plan despite account eligibility,1,RemoteControlIssues,7,#8BC34A
+18843,[Bug] Claude extension remains disabled in Chrome despite enabling in settings and extension manager,10,Chrome_Connection_Issues,3,#E67E22
+18885,"[BUG] API Error: Rate limit reached on Opus 4.6 with Claude Max — Sonnet works fine, fresh session, 6% usage",3,Opus_46_Issues Context_Limit Token,3,#9B59B6
+18978,[Bug] Usage limits overcounted due to prompt caching bug in v2.1.62,14,ExcessiveTokenConsumption PromptCacheIss,1,#2196F3
+19082,[BUG] Claude Code hangs after update on 28 feb 2026,23,Bug Freeze NotWorking IgnoringInstructio,27,#E74C3C
+19087,[BUG]  Claude Code**: 2.1.63 and remote control,1,RemoteControlIssues,7,#8BC34A
+19106,Claude Desktop v1.1.4498 crashes on launch - macOS 26.4 beta,20,Crash Launch Failure Hang Freeze Error,4,#607D8B
+19144,[Bug] Anthropic API Error: Rate limit reached after usage reset,2,AnthropicAPI_RateLimitError,35,#1ABC9C
+19165,[BUG] claude remote-control,1,RemoteControlIssues,4,#8BC34A
+19191,Claude-in-Chrome: Browser extension not connected despite correct setup,10,Chrome_Connection_Issues,28,#E67E22
+19194,[BUG] The import doesn't work in CLAUDE.local.md in Claude Code VSCode extension,7,vscode_issues api_error extension_breaks,2,#E91E63
+19200,[Bug] Excessive API token usage consumption,19,TokenUsageIssues BillingIssues TimeoutIs,24,#F1C40F
+19218,[BUG] Claude code cli OAuth token revoked after login,8,auth-timeout oauth-expiry login-fail,3,#9C27B0
+19227,CLAUDE_CODE_MAX_OUTPUT_TOKENS has no effect on Opus 4.6 (capped at 32K),3,Opus_46_Issues Context_Limit Token,2,#9B59B6
+19231,[Bug] Anthropic API Rate Limit: Extended Throttling (1+ hours),2,AnthropicAPI_RateLimitError,13,#1ABC9C
+19239,[BUG] The Claude Code Extension for VS Code (v2.1.61) freezes on Windows 11 ARM64.,7,vscode_issues api_error extension_breaks,3,#E91E63
+19245,[Bug] Claude Code CLI unresponsive to requests without error messages past 45min,12,memory_leak kernel_allocation api_error ,4,#2ECC71
+19255,[BUG] Claude Code crashes with 26006 Illegal instruction,23,Bug Freeze NotWorking IgnoringInstructio,11,#E74C3C
+19256,[Bug] Claude Code crashes on external command tasks with non-zero exit codes,23,Bug Freeze NotWorking IgnoringInstructio,2,#E74C3C
+19303,[Bug] Anthropic API Error: Rate limit reached across multiple accounts,2,AnthropicAPI_RateLimitError,14,#1ABC9C
+19327,Chrome MCP bridge: SDK reports connected but never connects to native host Unix socket,10,Chrome_Connection_Issues,7,#E67E22
